@@ -12,7 +12,7 @@
             EP_SinNombre.SetError(Me.txtTrabajador, "Falta un nombre de trabajador")
         Else
             Me.Hide()
-
+            Form2.Show()
         End If
     End Sub
 End Class

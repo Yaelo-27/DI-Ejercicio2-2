@@ -25,19 +25,21 @@ Partial Class Inicio
         Me.components = New System.ComponentModel.Container()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.txtTrabajador = New System.Windows.Forms.TextBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoTrabajadorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.P_Botones = New System.Windows.Forms.Panel()
-        Me.btn_next = New System.Windows.Forms.Button()
         Me.btn_exit = New System.Windows.Forms.Button()
+        Me.btn_next = New System.Windows.Forms.Button()
         Me.EP_SinNombre = New System.Windows.Forms.ErrorProvider(Me.components)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.RD_Trabajador = New System.Windows.Forms.RadioButton()
+        Me.RD_Trabajadora = New System.Windows.Forms.RadioButton()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.P_Botones.SuspendLayout()
         CType(Me.EP_SinNombre, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -56,14 +58,6 @@ Partial Class Inicio
         Me.txtTrabajador.Name = "txtTrabajador"
         Me.txtTrabajador.Size = New System.Drawing.Size(230, 20)
         Me.txtTrabajador.TabIndex = 1
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Location = New System.Drawing.Point(97, 27)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(118, 104)
-        Me.PictureBox1.TabIndex = 2
-        Me.PictureBox1.TabStop = False
         '
         'MenuStrip1
         '
@@ -84,13 +78,13 @@ Partial Class Inicio
         'NuevoTrabajadorToolStripMenuItem
         '
         Me.NuevoTrabajadorToolStripMenuItem.Name = "NuevoTrabajadorToolStripMenuItem"
-        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(166, 22)
         Me.NuevoTrabajadorToolStripMenuItem.Text = "Nuevo trabajador"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(166, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'P_Botones
@@ -102,21 +96,6 @@ Partial Class Inicio
         Me.P_Botones.Name = "P_Botones"
         Me.P_Botones.Size = New System.Drawing.Size(323, 61)
         Me.P_Botones.TabIndex = 4
-        '
-        'btn_next
-        '
-        Me.btn_next.Dock = System.Windows.Forms.DockStyle.Left
-        Me.btn_next.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.btn_next.FlatAppearance.BorderSize = 0
-        Me.btn_next.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
-        Me.btn_next.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_next.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_next.Location = New System.Drawing.Point(0, 0)
-        Me.btn_next.Name = "btn_next"
-        Me.btn_next.Size = New System.Drawing.Size(166, 61)
-        Me.btn_next.TabIndex = 0
-        Me.btn_next.Text = "Entrar"
-        Me.btn_next.UseVisualStyleBackColor = True
         '
         'btn_exit
         '
@@ -133,9 +112,58 @@ Partial Class Inicio
         Me.btn_exit.Text = "Salir"
         Me.btn_exit.UseVisualStyleBackColor = True
         '
+        'btn_next
+        '
+        Me.btn_next.Dock = System.Windows.Forms.DockStyle.Left
+        Me.btn_next.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btn_next.FlatAppearance.BorderSize = 0
+        Me.btn_next.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
+        Me.btn_next.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_next.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_next.Location = New System.Drawing.Point(0, 0)
+        Me.btn_next.Name = "btn_next"
+        Me.btn_next.Size = New System.Drawing.Size(166, 61)
+        Me.btn_next.TabIndex = 0
+        Me.btn_next.Text = "Entrar"
+        Me.btn_next.UseVisualStyleBackColor = True
+        '
         'EP_SinNombre
         '
         Me.EP_SinNombre.ContainerControl = Me
+        '
+        'RD_Trabajador
+        '
+        Me.RD_Trabajador.AutoSize = True
+        Me.RD_Trabajador.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RD_Trabajador.Location = New System.Drawing.Point(42, 185)
+        Me.RD_Trabajador.Name = "RD_Trabajador"
+        Me.RD_Trabajador.Size = New System.Drawing.Size(110, 25)
+        Me.RD_Trabajador.TabIndex = 5
+        Me.RD_Trabajador.TabStop = True
+        Me.RD_Trabajador.Text = "Trabajador"
+        Me.RD_Trabajador.UseVisualStyleBackColor = True
+        '
+        'RD_Trabajadora
+        '
+        Me.RD_Trabajadora.AutoSize = True
+        Me.RD_Trabajadora.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.RD_Trabajadora.Location = New System.Drawing.Point(153, 185)
+        Me.RD_Trabajadora.Name = "RD_Trabajadora"
+        Me.RD_Trabajadora.Size = New System.Drawing.Size(119, 25)
+        Me.RD_Trabajadora.TabIndex = 6
+        Me.RD_Trabajadora.TabStop = True
+        Me.RD_Trabajadora.Text = "Trabajadora"
+        Me.RD_Trabajadora.UseVisualStyleBackColor = True
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Location = New System.Drawing.Point(97, 27)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(118, 104)
+        Me.PictureBox1.TabIndex = 2
+        Me.PictureBox1.TabStop = False
         '
         'Inicio
         '
@@ -143,6 +171,8 @@ Partial Class Inicio
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(159, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(323, 345)
+        Me.Controls.Add(Me.RD_Trabajadora)
+        Me.Controls.Add(Me.RD_Trabajador)
         Me.Controls.Add(Me.P_Botones)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.txtTrabajador)
@@ -155,11 +185,11 @@ Partial Class Inicio
         Me.Name = "Inicio"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Inicio"
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.P_Botones.ResumeLayout(False)
         CType(Me.EP_SinNombre, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -176,4 +206,6 @@ Partial Class Inicio
     Friend WithEvents btn_exit As Button
     Friend WithEvents btn_next As Button
     Friend WithEvents EP_SinNombre As ErrorProvider
+    Friend WithEvents RD_Trabajadora As RadioButton
+    Friend WithEvents RD_Trabajador As RadioButton
 End Class
