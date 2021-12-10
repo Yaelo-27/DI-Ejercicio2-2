@@ -34,4 +34,9 @@
         Me.Close()
         Inicio.Show()
     End Sub
+
+    Private Sub btn_Test_Click(sender As Object, e As EventArgs) Handles btn_Test.Click
+        Me.Hide()
+        Form3.Show()
+    End Sub
 End Class

@@ -11,3 +11,4 @@ E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejerc
 E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2-2-Ramirez.xml
 E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2-2-Ramirez.pdb
 E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Form2.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Form3.resources
