@@ -1,0 +1,12 @@
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\bin\Debug\Ejercicio2-2-Ramirez.exe.config
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\bin\Debug\Ejercicio2-2-Ramirez.exe
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\bin\Debug\Ejercicio2-2-Ramirez.pdb
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\bin\Debug\Ejercicio2-2-Ramirez.xml
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2-2-Ramirez.vbproj.AssemblyReference.cache
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Inicio.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Resources.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2-2-Ramirez.vbproj.GenerateResource.cache
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2-2-Ramirez.vbproj.CoreCompileInputs.cache
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2-2-Ramirez.exe
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2-2-Ramirez.xml
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2-2-Ramirez.pdb
