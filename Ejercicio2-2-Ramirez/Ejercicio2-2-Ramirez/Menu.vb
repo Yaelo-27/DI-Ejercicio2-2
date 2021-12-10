@@ -24,4 +24,14 @@
         Me.Close()
         Inicio.Close()
     End Sub
+
+    Private Sub SalirToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles SalirToolStripMenuItem.Click
+        Me.Close()
+        Inicio.Close()
+    End Sub
+
+    Private Sub NuevoTrabajadorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NuevoTrabajadorToolStripMenuItem.Click
+        Me.Close()
+        Inicio.Show()
+    End Sub
 End Class
