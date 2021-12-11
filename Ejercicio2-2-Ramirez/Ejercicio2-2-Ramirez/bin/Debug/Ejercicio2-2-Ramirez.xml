@@ -22,7 +22,32 @@ Ejercicio2-2-Ramirez
   búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
 </summary>
 </member>
+<member name="P:Ejercicio2_2_Ramirez.My.Resources.Resources.animales">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ejercicio2_2_Ramirez.My.Resources.Resources.arte">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ejercicio2_2_Ramirez.My.Resources.Resources.Ciudades">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ejercicio2_2_Ramirez.My.Resources.Resources.paises">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Ejercicio2_2_Ramirez.My.Resources.Resources.salir">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ejercicio2_2_Ramirez.My.Resources.Resources.tecnologia">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
