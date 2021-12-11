@@ -143,10 +143,28 @@
     <Compile Include="Test1-Animales.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Test1-Arte.Designer.vb">
+      <DependentUpon>Test1-Arte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test1-Arte.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Test1-Ciudades.Designer.vb">
       <DependentUpon>Test1-Ciudades.vb</DependentUpon>
     </Compile>
     <Compile Include="Test1-Ciudades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test1-Paises.Designer.vb">
+      <DependentUpon>Test1-Paises.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test1-Paises.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test1-Tec.Designer.vb">
+      <DependentUpon>Test1-Tec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test1-Tec.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Test2-Animales.Designer.vb">
@@ -155,10 +173,28 @@
     <Compile Include="Test2-Animales.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Test2-Arte.Designer.vb">
+      <DependentUpon>Test2-Arte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test2-Arte.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Test2-Ciudades.Designer.vb">
       <DependentUpon>Test2-Ciudades.vb</DependentUpon>
     </Compile>
     <Compile Include="Test2-Ciudades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test2-Paises.Designer.vb">
+      <DependentUpon>Test2-Paises.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test2-Paises.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test2-Tec.Designer.vb">
+      <DependentUpon>Test2-Tec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test2-Tec.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -196,14 +232,32 @@
     <EmbeddedResource Include="Test1-Animales.resx">
       <DependentUpon>Test1-Animales.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Test1-Arte.resx">
+      <DependentUpon>Test1-Arte.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Test1-Ciudades.resx">
       <DependentUpon>Test1-Ciudades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test1-Paises.resx">
+      <DependentUpon>Test1-Paises.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test1-Tec.resx">
+      <DependentUpon>Test1-Tec.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Test2-Animales.resx">
       <DependentUpon>Test2-Animales.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Test2-Arte.resx">
+      <DependentUpon>Test2-Arte.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Test2-Ciudades.resx">
       <DependentUpon>Test2-Ciudades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test2-Paises.resx">
+      <DependentUpon>Test2-Paises.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test2-Tec.resx">
+      <DependentUpon>Test2-Tec.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

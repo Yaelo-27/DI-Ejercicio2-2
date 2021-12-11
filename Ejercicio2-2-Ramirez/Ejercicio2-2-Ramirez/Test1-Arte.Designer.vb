@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class Test2_Ciudades
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class Test1_Arte
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Test2_Ciudades
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -69,7 +69,7 @@ Partial Class Test2_Ciudades
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1090, 24)
-        Me.MenuStrip1.TabIndex = 3
+        Me.MenuStrip1.TabIndex = 2
         Me.MenuStrip1.Text = "MenuStrip1"
         '
         'ArchivoToolStripMenuItem
@@ -220,7 +220,6 @@ Partial Class Test2_Ciudades
         '
         'Panel1
         '
-        Me.Panel1.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(159, Byte), Integer))
         Me.Panel1.Controls.Add(Me.btn_Corregir)
         Me.Panel1.Controls.Add(Me.GroupBox4)
         Me.Panel1.Controls.Add(Me.GroupBox3)
@@ -231,7 +230,7 @@ Partial Class Test2_Ciudades
         Me.Panel1.Location = New System.Drawing.Point(0, 99)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(1090, 410)
-        Me.Panel1.TabIndex = 7
+        Me.Panel1.TabIndex = 5
         '
         'btn_Corregir
         '
@@ -292,14 +291,13 @@ Partial Class Test2_Ciudades
         '
         'P_Superior
         '
-        Me.P_Superior.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(159, Byte), Integer))
         Me.P_Superior.Controls.Add(Me.Label1)
         Me.P_Superior.Controls.Add(Me.PictureBox1)
         Me.P_Superior.Dock = System.Windows.Forms.DockStyle.Top
         Me.P_Superior.Location = New System.Drawing.Point(0, 24)
         Me.P_Superior.Name = "P_Superior"
         Me.P_Superior.Size = New System.Drawing.Size(1090, 75)
-        Me.P_Superior.TabIndex = 6
+        Me.P_Superior.TabIndex = 4
         '
         'Label1
         '
@@ -307,9 +305,9 @@ Partial Class Test2_Ciudades
         Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(433, 14)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(311, 42)
+        Me.Label1.Size = New System.Drawing.Size(233, 42)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Test dos Ciudades"
+        Me.Label1.Text = "Test uno arte"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox1
@@ -322,19 +320,19 @@ Partial Class Test2_Ciudades
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'Test2_Ciudades
+        'Test1_Arte
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(159, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1090, 509)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.P_Superior)
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
-        Me.MaximizeBox = False
-        Me.MinimizeBox = False
-        Me.Name = "Test2_Ciudades"
-        Me.Text = "Test2_Ciudades"
+        Me.Name = "Test1_Arte"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
+        Me.Text = "Test1_Arte"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
