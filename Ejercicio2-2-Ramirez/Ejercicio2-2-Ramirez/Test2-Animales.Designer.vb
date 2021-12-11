@@ -25,7 +25,6 @@ Partial Class Test2_Animales
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoTrabajadorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PuntuacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VolverToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -48,19 +47,39 @@ Partial Class Test2_Animales
         Me.IrALaWebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.P_Superior = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.rd_perg4_c = New System.Windows.Forms.RadioButton()
+        Me.rd_perg4_b = New System.Windows.Forms.RadioButton()
+        Me.rd_perg4_a = New System.Windows.Forms.RadioButton()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg3_c = New System.Windows.Forms.RadioButton()
+        Me.rd_preg3_b = New System.Windows.Forms.RadioButton()
+        Me.rd_preg3_a = New System.Windows.Forms.RadioButton()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg2_c = New System.Windows.Forms.RadioButton()
+        Me.rd_preg2_b = New System.Windows.Forms.RadioButton()
+        Me.rd_preg2_a = New System.Windows.Forms.RadioButton()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg1_c = New System.Windows.Forms.RadioButton()
+        Me.rd_preg1_b = New System.Windows.Forms.RadioButton()
+        Me.rd_preg1_a = New System.Windows.Forms.RadioButton()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.btn_Corregir = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.P_Superior.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -74,7 +93,7 @@ Partial Class Test2_Animales
         '
         'ArchivoToolStripMenuItem
         '
-        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoTrabajadorToolStripMenuItem, Me.PuntuacionesToolStripMenuItem, Me.VolverToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoTrabajadorToolStripMenuItem, Me.VolverToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
@@ -84,12 +103,6 @@ Partial Class Test2_Animales
         Me.NuevoTrabajadorToolStripMenuItem.Name = "NuevoTrabajadorToolStripMenuItem"
         Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.NuevoTrabajadorToolStripMenuItem.Text = "Nuevo Trabajador"
-        '
-        'PuntuacionesToolStripMenuItem
-        '
-        Me.PuntuacionesToolStripMenuItem.Name = "PuntuacionesToolStripMenuItem"
-        Me.PuntuacionesToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
-        Me.PuntuacionesToolStripMenuItem.Text = "Puntuaciones"
         '
         'VolverToolStripMenuItem
         '
@@ -239,23 +252,13 @@ Partial Class Test2_Animales
         Me.Label1.Text = "Test dos Animales"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
         'Panel1
         '
-        Me.Panel1.Controls.Add(Me.btn_Corregir)
         Me.Panel1.Controls.Add(Me.GroupBox4)
         Me.Panel1.Controls.Add(Me.GroupBox3)
         Me.Panel1.Controls.Add(Me.GroupBox2)
         Me.Panel1.Controls.Add(Me.GroupBox1)
+        Me.Panel1.Controls.Add(Me.btn_Corregir)
         Me.Panel1.Controls.Add(Me.PictureBox2)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel1.Location = New System.Drawing.Point(0, 99)
@@ -263,49 +266,242 @@ Partial Class Test2_Animales
         Me.Panel1.Size = New System.Drawing.Size(1090, 410)
         Me.Panel1.TabIndex = 3
         '
-        'PictureBox2
+        'GroupBox4
         '
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 31)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(328, 310)
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
+        Me.GroupBox4.Controls.Add(Me.rd_perg4_c)
+        Me.GroupBox4.Controls.Add(Me.rd_perg4_b)
+        Me.GroupBox4.Controls.Add(Me.rd_perg4_a)
+        Me.GroupBox4.Controls.Add(Me.Label5)
+        Me.GroupBox4.Location = New System.Drawing.Point(741, 193)
+        Me.GroupBox4.Name = "GroupBox4"
+        Me.GroupBox4.Size = New System.Drawing.Size(327, 156)
+        Me.GroupBox4.TabIndex = 5
+        Me.GroupBox4.TabStop = False
+        Me.GroupBox4.Text = "Pregunta 4"
         '
-        'GroupBox1
+        'rd_perg4_c
         '
-        Me.GroupBox1.Location = New System.Drawing.Point(367, 31)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(327, 156)
-        Me.GroupBox1.TabIndex = 1
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Pregunta 1"
+        Me.rd_perg4_c.AutoSize = True
+        Me.rd_perg4_c.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_perg4_c.Location = New System.Drawing.Point(21, 102)
+        Me.rd_perg4_c.Name = "rd_perg4_c"
+        Me.rd_perg4_c.Size = New System.Drawing.Size(175, 21)
+        Me.rd_perg4_c.TabIndex = 11
+        Me.rd_perg4_c.TabStop = True
+        Me.rd_perg4_c.Text = "Tribu de mujeres peludas"
+        Me.rd_perg4_c.UseVisualStyleBackColor = True
         '
-        'GroupBox2
+        'rd_perg4_b
         '
-        Me.GroupBox2.Location = New System.Drawing.Point(367, 193)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(327, 156)
-        Me.GroupBox2.TabIndex = 2
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Pregunta 2"
+        Me.rd_perg4_b.AutoSize = True
+        Me.rd_perg4_b.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_perg4_b.Location = New System.Drawing.Point(21, 79)
+        Me.rd_perg4_b.Name = "rd_perg4_b"
+        Me.rd_perg4_b.Size = New System.Drawing.Size(128, 21)
+        Me.rd_perg4_b.TabIndex = 10
+        Me.rd_perg4_b.TabStop = True
+        Me.rd_perg4_b.Text = "Monstruo peludo"
+        Me.rd_perg4_b.UseVisualStyleBackColor = True
+        '
+        'rd_perg4_a
+        '
+        Me.rd_perg4_a.AutoSize = True
+        Me.rd_perg4_a.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_perg4_a.Location = New System.Drawing.Point(21, 56)
+        Me.rd_perg4_a.Name = "rd_perg4_a"
+        Me.rd_perg4_a.Size = New System.Drawing.Size(153, 21)
+        Me.rd_perg4_a.TabIndex = 9
+        Me.rd_perg4_a.TabStop = True
+        Me.rd_perg4_a.Text = "Sabios de los árboles"
+        Me.rd_perg4_a.UseVisualStyleBackColor = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(2, 18)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(263, 34)
+        Me.Label5.TabIndex = 8
+        Me.Label5.Text = "LA PALABRA GORILA VIENE DEL GRIEGO " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GORILLAI QUE SIGNIFICA LITERALMENTE:"
         '
         'GroupBox3
         '
-        Me.GroupBox3.Location = New System.Drawing.Point(748, 31)
+        Me.GroupBox3.Controls.Add(Me.rd_preg3_c)
+        Me.GroupBox3.Controls.Add(Me.rd_preg3_b)
+        Me.GroupBox3.Controls.Add(Me.rd_preg3_a)
+        Me.GroupBox3.Controls.Add(Me.Label3)
+        Me.GroupBox3.Location = New System.Drawing.Point(741, 31)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(327, 156)
-        Me.GroupBox3.TabIndex = 2
+        Me.GroupBox3.TabIndex = 6
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Pregunta 3"
         '
-        'GroupBox4
+        'rd_preg3_c
         '
-        Me.GroupBox4.Location = New System.Drawing.Point(748, 193)
-        Me.GroupBox4.Name = "GroupBox4"
-        Me.GroupBox4.Size = New System.Drawing.Size(327, 156)
-        Me.GroupBox4.TabIndex = 2
-        Me.GroupBox4.TabStop = False
-        Me.GroupBox4.Text = "Pregunta 4"
+        Me.rd_preg3_c.AutoSize = True
+        Me.rd_preg3_c.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg3_c.Location = New System.Drawing.Point(34, 100)
+        Me.rd_preg3_c.Name = "rd_preg3_c"
+        Me.rd_preg3_c.Size = New System.Drawing.Size(210, 21)
+        Me.rd_preg3_c.TabIndex = 11
+        Me.rd_preg3_c.TabStop = True
+        Me.rd_preg3_c.Text = "Los casuarios no ponen huevos"
+        Me.rd_preg3_c.UseVisualStyleBackColor = True
+        '
+        'rd_preg3_b
+        '
+        Me.rd_preg3_b.AutoSize = True
+        Me.rd_preg3_b.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg3_b.Location = New System.Drawing.Point(34, 77)
+        Me.rd_preg3_b.Name = "rd_preg3_b"
+        Me.rd_preg3_b.Size = New System.Drawing.Size(288, 21)
+        Me.rd_preg3_b.TabIndex = 10
+        Me.rd_preg3_b.TabStop = True
+        Me.rd_preg3_b.Text = "Blancos o marrones como los de las gallinas"
+        Me.rd_preg3_b.UseVisualStyleBackColor = True
+        '
+        'rd_preg3_a
+        '
+        Me.rd_preg3_a.AutoSize = True
+        Me.rd_preg3_a.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg3_a.Location = New System.Drawing.Point(34, 54)
+        Me.rd_preg3_a.Name = "rd_preg3_a"
+        Me.rd_preg3_a.Size = New System.Drawing.Size(91, 21)
+        Me.rd_preg3_a.TabIndex = 9
+        Me.rd_preg3_a.TabStop = True
+        Me.rd_preg3_a.Text = "Son verdes"
+        Me.rd_preg3_a.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(18, 17)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(227, 34)
+        Me.Label3.TabIndex = 8
+        Me.Label3.Text = "¿DE QUÉ COLOR SON LOS HUEVOS " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "DE CASUARIO?"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_c)
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_b)
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_a)
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Location = New System.Drawing.Point(360, 193)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(327, 156)
+        Me.GroupBox2.TabIndex = 7
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Pregunta 2"
+        '
+        'rd_preg2_c
+        '
+        Me.rd_preg2_c.AutoSize = True
+        Me.rd_preg2_c.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg2_c.Location = New System.Drawing.Point(26, 126)
+        Me.rd_preg2_c.Name = "rd_preg2_c"
+        Me.rd_preg2_c.Size = New System.Drawing.Size(120, 21)
+        Me.rd_preg2_c.TabIndex = 11
+        Me.rd_preg2_c.TabStop = True
+        Me.rd_preg2_c.Text = "hasta 23 metros"
+        Me.rd_preg2_c.UseVisualStyleBackColor = True
+        '
+        'rd_preg2_b
+        '
+        Me.rd_preg2_b.AutoSize = True
+        Me.rd_preg2_b.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg2_b.Location = New System.Drawing.Point(26, 103)
+        Me.rd_preg2_b.Name = "rd_preg2_b"
+        Me.rd_preg2_b.Size = New System.Drawing.Size(78, 21)
+        Me.rd_preg2_b.TabIndex = 10
+        Me.rd_preg2_b.TabStop = True
+        Me.rd_preg2_b.Text = "3 metros"
+        Me.rd_preg2_b.UseVisualStyleBackColor = True
+        '
+        'rd_preg2_a
+        '
+        Me.rd_preg2_a.AutoSize = True
+        Me.rd_preg2_a.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg2_a.Location = New System.Drawing.Point(26, 80)
+        Me.rd_preg2_a.Name = "rd_preg2_a"
+        Me.rd_preg2_a.Size = New System.Drawing.Size(78, 21)
+        Me.rd_preg2_a.TabIndex = 9
+        Me.rd_preg2_a.TabStop = True
+        Me.rd_preg2_a.Text = "9 metros"
+        Me.rd_preg2_a.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(6, 16)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(273, 68)
+        Me.Label4.TabIndex = 8
+        Me.Label4.Text = "LA PITÓN RETICULADA ES UNA DE LAS " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SERPIENTES MÁS GRANDES DEL MUNDO " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "JUNTO A LA" &
+    " ANACONDA ¿SABES CUÁNTO " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PUEDE LLEGAR A MEDIR?"
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_c)
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_b)
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_a)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Location = New System.Drawing.Point(360, 31)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(327, 156)
+        Me.GroupBox1.TabIndex = 4
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Pregunta 1"
+        '
+        'rd_preg1_c
+        '
+        Me.rd_preg1_c.AutoSize = True
+        Me.rd_preg1_c.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_c.Location = New System.Drawing.Point(26, 118)
+        Me.rd_preg1_c.Name = "rd_preg1_c"
+        Me.rd_preg1_c.Size = New System.Drawing.Size(301, 38)
+        Me.rd_preg1_c.TabIndex = 11
+        Me.rd_preg1_c.TabStop = True
+        Me.rd_preg1_c.Text = "Por que los pelos de su espalda se blanquean " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "gracias ala plata"
+        Me.rd_preg1_c.UseVisualStyleBackColor = True
+        '
+        'rd_preg1_b
+        '
+        Me.rd_preg1_b.AutoSize = True
+        Me.rd_preg1_b.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_b.Location = New System.Drawing.Point(26, 86)
+        Me.rd_preg1_b.Name = "rd_preg1_b"
+        Me.rd_preg1_b.Size = New System.Drawing.Size(279, 38)
+        Me.rd_preg1_b.TabIndex = 10
+        Me.rd_preg1_b.TabStop = True
+        Me.rd_preg1_b.Text = "Por que a su carne se le llegaron a otorgar" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "propiedades curativas" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.rd_preg1_b.UseVisualStyleBackColor = True
+        '
+        'rd_preg1_a
+        '
+        Me.rd_preg1_a.AutoSize = True
+        Me.rd_preg1_a.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_a.Location = New System.Drawing.Point(26, 54)
+        Me.rd_preg1_a.Name = "rd_preg1_a"
+        Me.rd_preg1_a.Size = New System.Drawing.Size(254, 38)
+        Me.rd_preg1_a.TabIndex = 9
+        Me.rd_preg1_a.TabStop = True
+        Me.rd_preg1_a.Text = "Simplemente por la tonalidad plateada" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " de su espalda"
+        Me.rd_preg1_a.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(9, 17)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(291, 34)
+        Me.Label2.TabIndex = 8
+        Me.Label2.Text = "¿POR QUÉ EL MACHO DEL GORILA DE COSTA " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "SE SUELE LLAMAR ""ESPALDA PLATEADA""?"
         '
         'btn_Corregir
         '
@@ -319,6 +515,26 @@ Partial Class Test2_Animales
         Me.btn_Corregir.TabIndex = 3
         Me.btn_Corregir.Text = "Corregir"
         Me.btn_Corregir.UseVisualStyleBackColor = True
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.animal2
+        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 31)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(328, 310)
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'Test2_Animales
         '
@@ -339,9 +555,17 @@ Partial Class Test2_Animales
         Me.MenuStrip1.PerformLayout()
         Me.P_Superior.ResumeLayout(False)
         Me.P_Superior.PerformLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -350,7 +574,6 @@ Partial Class Test2_Animales
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NuevoTrabajadorToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PuntuacionesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents VolverToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TestToolStripMenuItem As ToolStripMenuItem
@@ -375,10 +598,26 @@ Partial Class Test2_Animales
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Panel1 As Panel
-    Friend WithEvents GroupBox4 As GroupBox
-    Friend WithEvents GroupBox3 As GroupBox
-    Friend WithEvents GroupBox2 As GroupBox
-    Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents PictureBox2 As PictureBox
     Friend WithEvents btn_Corregir As Button
+    Friend WithEvents GroupBox4 As GroupBox
+    Friend WithEvents rd_perg4_c As RadioButton
+    Friend WithEvents rd_perg4_b As RadioButton
+    Friend WithEvents rd_perg4_a As RadioButton
+    Friend WithEvents Label5 As Label
+    Friend WithEvents GroupBox3 As GroupBox
+    Friend WithEvents rd_preg3_c As RadioButton
+    Friend WithEvents rd_preg3_b As RadioButton
+    Friend WithEvents rd_preg3_a As RadioButton
+    Friend WithEvents Label3 As Label
+    Friend WithEvents GroupBox2 As GroupBox
+    Friend WithEvents rd_preg2_c As RadioButton
+    Friend WithEvents rd_preg2_b As RadioButton
+    Friend WithEvents rd_preg2_a As RadioButton
+    Friend WithEvents Label4 As Label
+    Friend WithEvents GroupBox1 As GroupBox
+    Friend WithEvents rd_preg1_c As RadioButton
+    Friend WithEvents rd_preg1_b As RadioButton
+    Friend WithEvents rd_preg1_a As RadioButton
+    Friend WithEvents Label2 As Label
 End Class

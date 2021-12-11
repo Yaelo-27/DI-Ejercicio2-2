@@ -308,7 +308,7 @@ Partial Class Animales
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Animales"
-        Me.Text = "Form6"
+        Me.Text = "Animales"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.P_Superior.ResumeLayout(False)

@@ -311,5 +311,11 @@
   <ItemGroup>
     <None Include="Resources\ciudadtest2.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paisestest1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paisestest2.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
