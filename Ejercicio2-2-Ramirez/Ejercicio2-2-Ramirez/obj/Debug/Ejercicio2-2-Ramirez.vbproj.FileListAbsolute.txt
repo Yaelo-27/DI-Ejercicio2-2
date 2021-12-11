@@ -21,3 +21,9 @@ E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejerc
 E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test1_Ciudades.resources
 E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test2_Animales.resources
 E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test2_Ciudades.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test1_Arte.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test1_Paises.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test1_Tec.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test2_Arte.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test2_Paises.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test2_Tec.resources

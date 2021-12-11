@@ -49,15 +49,35 @@ Partial Class Test2_Ciudades
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btn_Corregir = New System.Windows.Forms.Button()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg4_BuenosAires = New System.Windows.Forms.RadioButton()
+        Me.rd_preg4_NuevaYork = New System.Windows.Forms.RadioButton()
+        Me.rd_preg4_Londres = New System.Windows.Forms.RadioButton()
+        Me.Label5 = New System.Windows.Forms.Label()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg3_Salonica = New System.Windows.Forms.RadioButton()
+        Me.rd_preg3_Estambul = New System.Windows.Forms.RadioButton()
+        Me.rd_preg3_berlin = New System.Windows.Forms.RadioButton()
+        Me.Label3 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg2_Atenas = New System.Windows.Forms.RadioButton()
+        Me.rd_preg2_Tebas = New System.Windows.Forms.RadioButton()
+        Me.rd_preg2_Roma = New System.Windows.Forms.RadioButton()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg1_milan = New System.Windows.Forms.RadioButton()
+        Me.rd_preg1_paris = New System.Windows.Forms.RadioButton()
+        Me.rd_preg1_Bruselas = New System.Windows.Forms.RadioButton()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.P_Superior = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
+        Me.GroupBox4.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
+        Me.GroupBox2.SuspendLayout()
+        Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.P_Superior.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -248,6 +268,10 @@ Partial Class Test2_Ciudades
         '
         'GroupBox4
         '
+        Me.GroupBox4.Controls.Add(Me.rd_preg4_BuenosAires)
+        Me.GroupBox4.Controls.Add(Me.rd_preg4_NuevaYork)
+        Me.GroupBox4.Controls.Add(Me.rd_preg4_Londres)
+        Me.GroupBox4.Controls.Add(Me.Label5)
         Me.GroupBox4.Location = New System.Drawing.Point(748, 193)
         Me.GroupBox4.Name = "GroupBox4"
         Me.GroupBox4.Size = New System.Drawing.Size(327, 156)
@@ -255,8 +279,58 @@ Partial Class Test2_Ciudades
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Pregunta 4"
         '
+        'rd_preg4_BuenosAires
+        '
+        Me.rd_preg4_BuenosAires.AutoSize = True
+        Me.rd_preg4_BuenosAires.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg4_BuenosAires.Location = New System.Drawing.Point(22, 109)
+        Me.rd_preg4_BuenosAires.Name = "rd_preg4_BuenosAires"
+        Me.rd_preg4_BuenosAires.Size = New System.Drawing.Size(102, 21)
+        Me.rd_preg4_BuenosAires.TabIndex = 16
+        Me.rd_preg4_BuenosAires.TabStop = True
+        Me.rd_preg4_BuenosAires.Text = "Buenos Aires"
+        Me.rd_preg4_BuenosAires.UseVisualStyleBackColor = True
+        '
+        'rd_preg4_NuevaYork
+        '
+        Me.rd_preg4_NuevaYork.AutoSize = True
+        Me.rd_preg4_NuevaYork.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg4_NuevaYork.Location = New System.Drawing.Point(22, 86)
+        Me.rd_preg4_NuevaYork.Name = "rd_preg4_NuevaYork"
+        Me.rd_preg4_NuevaYork.Size = New System.Drawing.Size(94, 21)
+        Me.rd_preg4_NuevaYork.TabIndex = 15
+        Me.rd_preg4_NuevaYork.TabStop = True
+        Me.rd_preg4_NuevaYork.Text = "Nueva York"
+        Me.rd_preg4_NuevaYork.UseVisualStyleBackColor = True
+        '
+        'rd_preg4_Londres
+        '
+        Me.rd_preg4_Londres.AutoSize = True
+        Me.rd_preg4_Londres.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg4_Londres.Location = New System.Drawing.Point(22, 63)
+        Me.rd_preg4_Londres.Name = "rd_preg4_Londres"
+        Me.rd_preg4_Londres.Size = New System.Drawing.Size(73, 21)
+        Me.rd_preg4_Londres.TabIndex = 14
+        Me.rd_preg4_Londres.TabStop = True
+        Me.rd_preg4_Londres.Text = "Londres"
+        Me.rd_preg4_Londres.UseVisualStyleBackColor = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(5, 26)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(307, 34)
+        Me.Label5.TabIndex = 13
+        Me.Label5.Text = "¿EN QUÉ CIUDAD DE EUROPA SE ENCUENTRA EL" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " METRO MÁS ANTIGUO DEL MUNDO?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.rd_preg3_Salonica)
+        Me.GroupBox3.Controls.Add(Me.rd_preg3_Estambul)
+        Me.GroupBox3.Controls.Add(Me.rd_preg3_berlin)
+        Me.GroupBox3.Controls.Add(Me.Label3)
         Me.GroupBox3.Location = New System.Drawing.Point(748, 31)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(327, 156)
@@ -264,8 +338,58 @@ Partial Class Test2_Ciudades
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Pregunta 3"
         '
+        'rd_preg3_Salonica
+        '
+        Me.rd_preg3_Salonica.AutoSize = True
+        Me.rd_preg3_Salonica.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg3_Salonica.Location = New System.Drawing.Point(22, 107)
+        Me.rd_preg3_Salonica.Name = "rd_preg3_Salonica"
+        Me.rd_preg3_Salonica.Size = New System.Drawing.Size(74, 21)
+        Me.rd_preg3_Salonica.TabIndex = 10
+        Me.rd_preg3_Salonica.TabStop = True
+        Me.rd_preg3_Salonica.Text = "Salónica"
+        Me.rd_preg3_Salonica.UseVisualStyleBackColor = True
+        '
+        'rd_preg3_Estambul
+        '
+        Me.rd_preg3_Estambul.AutoSize = True
+        Me.rd_preg3_Estambul.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg3_Estambul.Location = New System.Drawing.Point(22, 84)
+        Me.rd_preg3_Estambul.Name = "rd_preg3_Estambul"
+        Me.rd_preg3_Estambul.Size = New System.Drawing.Size(79, 21)
+        Me.rd_preg3_Estambul.TabIndex = 9
+        Me.rd_preg3_Estambul.TabStop = True
+        Me.rd_preg3_Estambul.Text = "Estambul"
+        Me.rd_preg3_Estambul.UseVisualStyleBackColor = True
+        '
+        'rd_preg3_berlin
+        '
+        Me.rd_preg3_berlin.AutoSize = True
+        Me.rd_preg3_berlin.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg3_berlin.Location = New System.Drawing.Point(22, 61)
+        Me.rd_preg3_berlin.Name = "rd_preg3_berlin"
+        Me.rd_preg3_berlin.Size = New System.Drawing.Size(59, 21)
+        Me.rd_preg3_berlin.TabIndex = 8
+        Me.rd_preg3_berlin.TabStop = True
+        Me.rd_preg3_berlin.Text = "Berlín"
+        Me.rd_preg3_berlin.UseVisualStyleBackColor = True
+        '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(5, 29)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(304, 34)
+        Me.Label3.TabIndex = 7
+        Me.Label3.Text = "¿A QUÉ CIUDAD EUROPEA HABRÍA QUE VIAJAR " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PARA COMERSE UN CURRYWURST?"
+        '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_Atenas)
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_Tebas)
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_Roma)
+        Me.GroupBox2.Controls.Add(Me.Label4)
         Me.GroupBox2.Location = New System.Drawing.Point(367, 193)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(327, 156)
@@ -273,8 +397,58 @@ Partial Class Test2_Ciudades
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Pregunta 2"
         '
+        'rd_preg2_Atenas
+        '
+        Me.rd_preg2_Atenas.AutoSize = True
+        Me.rd_preg2_Atenas.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg2_Atenas.Location = New System.Drawing.Point(21, 109)
+        Me.rd_preg2_Atenas.Name = "rd_preg2_Atenas"
+        Me.rd_preg2_Atenas.Size = New System.Drawing.Size(65, 21)
+        Me.rd_preg2_Atenas.TabIndex = 13
+        Me.rd_preg2_Atenas.TabStop = True
+        Me.rd_preg2_Atenas.Text = "Atenas"
+        Me.rd_preg2_Atenas.UseVisualStyleBackColor = True
+        '
+        'rd_preg2_Tebas
+        '
+        Me.rd_preg2_Tebas.AutoSize = True
+        Me.rd_preg2_Tebas.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg2_Tebas.Location = New System.Drawing.Point(21, 86)
+        Me.rd_preg2_Tebas.Name = "rd_preg2_Tebas"
+        Me.rd_preg2_Tebas.Size = New System.Drawing.Size(61, 21)
+        Me.rd_preg2_Tebas.TabIndex = 12
+        Me.rd_preg2_Tebas.TabStop = True
+        Me.rd_preg2_Tebas.Text = "Tebas"
+        Me.rd_preg2_Tebas.UseVisualStyleBackColor = True
+        '
+        'rd_preg2_Roma
+        '
+        Me.rd_preg2_Roma.AutoSize = True
+        Me.rd_preg2_Roma.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg2_Roma.Location = New System.Drawing.Point(21, 63)
+        Me.rd_preg2_Roma.Name = "rd_preg2_Roma"
+        Me.rd_preg2_Roma.Size = New System.Drawing.Size(60, 21)
+        Me.rd_preg2_Roma.TabIndex = 11
+        Me.rd_preg2_Roma.TabStop = True
+        Me.rd_preg2_Roma.Text = "Roma"
+        Me.rd_preg2_Roma.UseVisualStyleBackColor = True
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(14, 26)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(298, 34)
+        Me.Label4.TabIndex = 10
+        Me.Label4.Text = "¿CUÁL ES LA ¿EN QUÉ CIUDAD SE ENCUENTRA " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "PANTENON?"
+        '
         'GroupBox1
         '
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_milan)
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_paris)
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_Bruselas)
+        Me.GroupBox1.Controls.Add(Me.Label2)
         Me.GroupBox1.Location = New System.Drawing.Point(367, 31)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(327, 156)
@@ -282,8 +456,55 @@ Partial Class Test2_Ciudades
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Pregunta 1"
         '
+        'rd_preg1_milan
+        '
+        Me.rd_preg1_milan.AutoSize = True
+        Me.rd_preg1_milan.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_milan.Location = New System.Drawing.Point(21, 112)
+        Me.rd_preg1_milan.Name = "rd_preg1_milan"
+        Me.rd_preg1_milan.Size = New System.Drawing.Size(58, 21)
+        Me.rd_preg1_milan.TabIndex = 7
+        Me.rd_preg1_milan.TabStop = True
+        Me.rd_preg1_milan.Text = "Milán"
+        Me.rd_preg1_milan.UseVisualStyleBackColor = True
+        '
+        'rd_preg1_paris
+        '
+        Me.rd_preg1_paris.AutoSize = True
+        Me.rd_preg1_paris.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_paris.Location = New System.Drawing.Point(21, 89)
+        Me.rd_preg1_paris.Name = "rd_preg1_paris"
+        Me.rd_preg1_paris.Size = New System.Drawing.Size(54, 21)
+        Me.rd_preg1_paris.TabIndex = 6
+        Me.rd_preg1_paris.TabStop = True
+        Me.rd_preg1_paris.Text = "París"
+        Me.rd_preg1_paris.UseVisualStyleBackColor = True
+        '
+        'rd_preg1_Bruselas
+        '
+        Me.rd_preg1_Bruselas.AutoSize = True
+        Me.rd_preg1_Bruselas.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_Bruselas.Location = New System.Drawing.Point(21, 66)
+        Me.rd_preg1_Bruselas.Name = "rd_preg1_Bruselas"
+        Me.rd_preg1_Bruselas.Size = New System.Drawing.Size(75, 21)
+        Me.rd_preg1_Bruselas.TabIndex = 5
+        Me.rd_preg1_Bruselas.TabStop = True
+        Me.rd_preg1_Bruselas.Text = "Bruselas"
+        Me.rd_preg1_Bruselas.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(10, 29)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(314, 34)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "¿CUÁL ES LA CIUDAD EUROPEA DEL CHOCOLATE " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "POR EXCELENCIA?"
+        '
         'PictureBox2
         '
+        Me.PictureBox2.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ciudadtest2
         Me.PictureBox2.Location = New System.Drawing.Point(12, 31)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(328, 310)
@@ -338,6 +559,14 @@ Partial Class Test2_Ciudades
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.Panel1.ResumeLayout(False)
+        Me.GroupBox4.ResumeLayout(False)
+        Me.GroupBox4.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
+        Me.GroupBox1.ResumeLayout(False)
+        Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.P_Superior.ResumeLayout(False)
         Me.P_Superior.PerformLayout()
@@ -381,4 +610,20 @@ Partial Class Test2_Ciudades
     Friend WithEvents P_Superior As Panel
     Friend WithEvents Label1 As Label
     Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents rd_preg1_milan As RadioButton
+    Friend WithEvents rd_preg1_paris As RadioButton
+    Friend WithEvents rd_preg1_Bruselas As RadioButton
+    Friend WithEvents Label2 As Label
+    Friend WithEvents rd_preg3_Salonica As RadioButton
+    Friend WithEvents rd_preg3_Estambul As RadioButton
+    Friend WithEvents rd_preg3_berlin As RadioButton
+    Friend WithEvents Label3 As Label
+    Friend WithEvents rd_preg2_Atenas As RadioButton
+    Friend WithEvents rd_preg2_Tebas As RadioButton
+    Friend WithEvents rd_preg2_Roma As RadioButton
+    Friend WithEvents Label4 As Label
+    Friend WithEvents rd_preg4_BuenosAires As RadioButton
+    Friend WithEvents rd_preg4_NuevaYork As RadioButton
+    Friend WithEvents rd_preg4_Londres As RadioButton
+    Friend WithEvents Label5 As Label
 End Class

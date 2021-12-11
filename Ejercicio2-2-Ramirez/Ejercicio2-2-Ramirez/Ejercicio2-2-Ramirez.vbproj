@@ -305,5 +305,11 @@
   <ItemGroup>
     <None Include="Resources\tecnologia.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ciudadtest1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ciudadtest2.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
