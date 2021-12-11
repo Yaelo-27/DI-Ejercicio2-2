@@ -34,7 +34,6 @@ Partial Class Test2_Paises
         Me.Test2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PaisesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test2ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AnimalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test2ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
@@ -49,37 +48,37 @@ Partial Class Test2_Paises
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btn_Corregir = New System.Windows.Forms.Button()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.P_Superior = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.rd_preg1_c = New System.Windows.Forms.RadioButton()
-        Me.rd_preg1_b = New System.Windows.Forms.RadioButton()
-        Me.rd_preg1_a = New System.Windows.Forms.RadioButton()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.rd_preg3_c = New System.Windows.Forms.RadioButton()
-        Me.rd_preg3_b = New System.Windows.Forms.RadioButton()
-        Me.rd_preg3_a = New System.Windows.Forms.RadioButton()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.rd_preg2_c = New System.Windows.Forms.RadioButton()
-        Me.rd_preg2_b = New System.Windows.Forms.RadioButton()
-        Me.rd_preg2_a = New System.Windows.Forms.RadioButton()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.rd_perg4_c = New System.Windows.Forms.RadioButton()
         Me.rd_perg4_b = New System.Windows.Forms.RadioButton()
         Me.rd_perg4_a = New System.Windows.Forms.RadioButton()
         Me.Label5 = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg3_c = New System.Windows.Forms.RadioButton()
+        Me.rd_preg3_b = New System.Windows.Forms.RadioButton()
+        Me.rd_preg3_a = New System.Windows.Forms.RadioButton()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg2_c = New System.Windows.Forms.RadioButton()
+        Me.rd_preg2_b = New System.Windows.Forms.RadioButton()
+        Me.rd_preg2_a = New System.Windows.Forms.RadioButton()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg1_c = New System.Windows.Forms.RadioButton()
+        Me.rd_preg1_b = New System.Windows.Forms.RadioButton()
+        Me.rd_preg1_a = New System.Windows.Forms.RadioButton()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.P_Superior = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
-        Me.P_Superior.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.P_Superior.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -134,7 +133,7 @@ Partial Class Test2_Paises
         '
         Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem, Me.Test2ToolStripMenuItem})
         Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
-        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
         '
         'Test1ToolStripMenuItem
@@ -151,28 +150,22 @@ Partial Class Test2_Paises
         '
         'PaisesToolStripMenuItem
         '
-        Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem1, Me.Test2ToolStripMenuItem1})
+        Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem1})
         Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
-        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
         'Test1ToolStripMenuItem1
         '
         Me.Test1ToolStripMenuItem1.Name = "Test1ToolStripMenuItem1"
-        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem1.Text = "Test 1"
-        '
-        'Test2ToolStripMenuItem1
-        '
-        Me.Test2ToolStripMenuItem1.Name = "Test2ToolStripMenuItem1"
-        Me.Test2ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
-        Me.Test2ToolStripMenuItem1.Text = "Test 2"
         '
         'AnimalesToolStripMenuItem
         '
         Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2, Me.Test2ToolStripMenuItem2})
         Me.AnimalesToolStripMenuItem.Name = "AnimalesToolStripMenuItem"
-        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AnimalesToolStripMenuItem.Text = "Animales"
         '
         'Test1ToolStripMenuItem2
@@ -191,7 +184,7 @@ Partial Class Test2_Paises
         '
         Me.ArteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem3, Me.Test2ToolStripMenuItem3})
         Me.ArteToolStripMenuItem.Name = "ArteToolStripMenuItem"
-        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ArteToolStripMenuItem.Text = "Arte"
         '
         'Test1ToolStripMenuItem3
@@ -210,19 +203,19 @@ Partial Class Test2_Paises
         '
         Me.TecnologiaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem4, Me.Test2ToolStripMenuItem4})
         Me.TecnologiaToolStripMenuItem.Name = "TecnologiaToolStripMenuItem"
-        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TecnologiaToolStripMenuItem.Text = "Tecnologia"
         '
         'Test1ToolStripMenuItem4
         '
         Me.Test1ToolStripMenuItem4.Name = "Test1ToolStripMenuItem4"
-        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem4.Text = "Test 1"
         '
         'Test2ToolStripMenuItem4
         '
         Me.Test2ToolStripMenuItem4.Name = "Test2ToolStripMenuItem4"
-        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
         Me.Test2ToolStripMenuItem4.Text = "Test 2"
         '
         'WebToolStripMenuItem
@@ -278,6 +271,52 @@ Partial Class Test2_Paises
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Pregunta 4"
         '
+        'rd_perg4_c
+        '
+        Me.rd_perg4_c.AutoSize = True
+        Me.rd_perg4_c.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_perg4_c.Location = New System.Drawing.Point(21, 102)
+        Me.rd_perg4_c.Name = "rd_perg4_c"
+        Me.rd_perg4_c.Size = New System.Drawing.Size(75, 21)
+        Me.rd_perg4_c.TabIndex = 11
+        Me.rd_perg4_c.TabStop = True
+        Me.rd_perg4_c.Text = "Portugal"
+        Me.rd_perg4_c.UseVisualStyleBackColor = True
+        '
+        'rd_perg4_b
+        '
+        Me.rd_perg4_b.AutoSize = True
+        Me.rd_perg4_b.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_perg4_b.Location = New System.Drawing.Point(21, 79)
+        Me.rd_perg4_b.Name = "rd_perg4_b"
+        Me.rd_perg4_b.Size = New System.Drawing.Size(54, 21)
+        Me.rd_perg4_b.TabIndex = 10
+        Me.rd_perg4_b.TabStop = True
+        Me.rd_perg4_b.Text = "Italia"
+        Me.rd_perg4_b.UseVisualStyleBackColor = True
+        '
+        'rd_perg4_a
+        '
+        Me.rd_perg4_a.AutoSize = True
+        Me.rd_perg4_a.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_perg4_a.Location = New System.Drawing.Point(21, 56)
+        Me.rd_perg4_a.Name = "rd_perg4_a"
+        Me.rd_perg4_a.Size = New System.Drawing.Size(68, 21)
+        Me.rd_perg4_a.TabIndex = 9
+        Me.rd_perg4_a.TabStop = True
+        Me.rd_perg4_a.Text = "España"
+        Me.rd_perg4_a.UseVisualStyleBackColor = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(2, 18)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(355, 34)
+        Me.Label5.TabIndex = 8
+        Me.Label5.Text = "¿QUÉ PAÍS EUROPEO ES FAMOSO POR SU PRODUCCIÓN " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "DE OPORTO Y DE CORCHO?"
+        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.rd_preg3_c)
@@ -290,119 +329,6 @@ Partial Class Test2_Paises
         Me.GroupBox3.TabIndex = 2
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Pregunta 3"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.rd_preg2_c)
-        Me.GroupBox2.Controls.Add(Me.rd_preg2_b)
-        Me.GroupBox2.Controls.Add(Me.rd_preg2_a)
-        Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Location = New System.Drawing.Point(367, 193)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(327, 156)
-        Me.GroupBox2.TabIndex = 2
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Pregunta 2"
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.rd_preg1_c)
-        Me.GroupBox1.Controls.Add(Me.rd_preg1_b)
-        Me.GroupBox1.Controls.Add(Me.rd_preg1_a)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Location = New System.Drawing.Point(367, 31)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(327, 156)
-        Me.GroupBox1.TabIndex = 1
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Pregunta 1"
-        '
-        'P_Superior
-        '
-        Me.P_Superior.Controls.Add(Me.Label1)
-        Me.P_Superior.Controls.Add(Me.PictureBox1)
-        Me.P_Superior.Dock = System.Windows.Forms.DockStyle.Top
-        Me.P_Superior.Location = New System.Drawing.Point(0, 24)
-        Me.P_Superior.Name = "P_Superior"
-        Me.P_Superior.Size = New System.Drawing.Size(1090, 75)
-        Me.P_Superior.TabIndex = 4
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(433, 14)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(263, 42)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Test dos países"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.paisestest2
-        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 31)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(328, 310)
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
-        'rd_preg1_c
-        '
-        Me.rd_preg1_c.AutoSize = True
-        Me.rd_preg1_c.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_preg1_c.Location = New System.Drawing.Point(26, 94)
-        Me.rd_preg1_c.Name = "rd_preg1_c"
-        Me.rd_preg1_c.Size = New System.Drawing.Size(60, 21)
-        Me.rd_preg1_c.TabIndex = 11
-        Me.rd_preg1_c.TabStop = True
-        Me.rd_preg1_c.Text = "Aneto"
-        Me.rd_preg1_c.UseVisualStyleBackColor = True
-        '
-        'rd_preg1_b
-        '
-        Me.rd_preg1_b.AutoSize = True
-        Me.rd_preg1_b.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_preg1_b.Location = New System.Drawing.Point(26, 71)
-        Me.rd_preg1_b.Name = "rd_preg1_b"
-        Me.rd_preg1_b.Size = New System.Drawing.Size(82, 21)
-        Me.rd_preg1_b.TabIndex = 10
-        Me.rd_preg1_b.TabStop = True
-        Me.rd_preg1_b.Text = "Mulhacén"
-        Me.rd_preg1_b.UseVisualStyleBackColor = True
-        '
-        'rd_preg1_a
-        '
-        Me.rd_preg1_a.AutoSize = True
-        Me.rd_preg1_a.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_preg1_a.Location = New System.Drawing.Point(26, 48)
-        Me.rd_preg1_a.Name = "rd_preg1_a"
-        Me.rd_preg1_a.Size = New System.Drawing.Size(58, 21)
-        Me.rd_preg1_a.TabIndex = 9
-        Me.rd_preg1_a.TabStop = True
-        Me.rd_preg1_a.Text = "Teide"
-        Me.rd_preg1_a.UseVisualStyleBackColor = True
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(9, 17)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(268, 17)
-        Me.Label2.TabIndex = 8
-        Me.Label2.Text = "¿CUÁL ES EL PICO MÁS ALTO DE ESPAÑA?"
         '
         'rd_preg3_c
         '
@@ -451,6 +377,19 @@ Partial Class Test2_Paises
         Me.Label3.Text = "¿CUÁL ES EL PAÍS SOBERANO CON MENOR DENSIDAD " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "DE POBLACIÓN Y EN ÉL HABITA UNA SU" &
     "BESPECIE " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "ÚNICA DE CABALLOS SALVAJES?"
         '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_c)
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_b)
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_a)
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Location = New System.Drawing.Point(367, 193)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(327, 156)
+        Me.GroupBox2.TabIndex = 2
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Pregunta 2"
+        '
         'rd_preg2_c
         '
         Me.rd_preg2_c.AutoSize = True
@@ -497,51 +436,105 @@ Partial Class Test2_Paises
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "¿QUÉ PAÍS CUENTA CON EL GLACIAR MÁS JOVEN " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Y CON LA COLONIA DE MURCIÉLAGOS MÁS " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "GRANDE DEL MUNDO?"
         '
-        'rd_perg4_c
+        'GroupBox1
         '
-        Me.rd_perg4_c.AutoSize = True
-        Me.rd_perg4_c.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_perg4_c.Location = New System.Drawing.Point(21, 102)
-        Me.rd_perg4_c.Name = "rd_perg4_c"
-        Me.rd_perg4_c.Size = New System.Drawing.Size(75, 21)
-        Me.rd_perg4_c.TabIndex = 11
-        Me.rd_perg4_c.TabStop = True
-        Me.rd_perg4_c.Text = "Portugal"
-        Me.rd_perg4_c.UseVisualStyleBackColor = True
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_c)
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_b)
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_a)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Location = New System.Drawing.Point(367, 31)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(327, 156)
+        Me.GroupBox1.TabIndex = 1
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Pregunta 1"
         '
-        'rd_perg4_b
+        'rd_preg1_c
         '
-        Me.rd_perg4_b.AutoSize = True
-        Me.rd_perg4_b.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_perg4_b.Location = New System.Drawing.Point(21, 79)
-        Me.rd_perg4_b.Name = "rd_perg4_b"
-        Me.rd_perg4_b.Size = New System.Drawing.Size(54, 21)
-        Me.rd_perg4_b.TabIndex = 10
-        Me.rd_perg4_b.TabStop = True
-        Me.rd_perg4_b.Text = "Italia"
-        Me.rd_perg4_b.UseVisualStyleBackColor = True
+        Me.rd_preg1_c.AutoSize = True
+        Me.rd_preg1_c.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_c.Location = New System.Drawing.Point(26, 94)
+        Me.rd_preg1_c.Name = "rd_preg1_c"
+        Me.rd_preg1_c.Size = New System.Drawing.Size(60, 21)
+        Me.rd_preg1_c.TabIndex = 11
+        Me.rd_preg1_c.TabStop = True
+        Me.rd_preg1_c.Text = "Aneto"
+        Me.rd_preg1_c.UseVisualStyleBackColor = True
         '
-        'rd_perg4_a
+        'rd_preg1_b
         '
-        Me.rd_perg4_a.AutoSize = True
-        Me.rd_perg4_a.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_perg4_a.Location = New System.Drawing.Point(21, 56)
-        Me.rd_perg4_a.Name = "rd_perg4_a"
-        Me.rd_perg4_a.Size = New System.Drawing.Size(68, 21)
-        Me.rd_perg4_a.TabIndex = 9
-        Me.rd_perg4_a.TabStop = True
-        Me.rd_perg4_a.Text = "España"
-        Me.rd_perg4_a.UseVisualStyleBackColor = True
+        Me.rd_preg1_b.AutoSize = True
+        Me.rd_preg1_b.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_b.Location = New System.Drawing.Point(26, 71)
+        Me.rd_preg1_b.Name = "rd_preg1_b"
+        Me.rd_preg1_b.Size = New System.Drawing.Size(82, 21)
+        Me.rd_preg1_b.TabIndex = 10
+        Me.rd_preg1_b.TabStop = True
+        Me.rd_preg1_b.Text = "Mulhacén"
+        Me.rd_preg1_b.UseVisualStyleBackColor = True
         '
-        'Label5
+        'rd_preg1_a
         '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(2, 18)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(355, 34)
-        Me.Label5.TabIndex = 8
-        Me.Label5.Text = "¿QUÉ PAÍS EUROPEO ES FAMOSO POR SU PRODUCCIÓN " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "DE OPORTO Y DE CORCHO?"
+        Me.rd_preg1_a.AutoSize = True
+        Me.rd_preg1_a.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_a.Location = New System.Drawing.Point(26, 48)
+        Me.rd_preg1_a.Name = "rd_preg1_a"
+        Me.rd_preg1_a.Size = New System.Drawing.Size(58, 21)
+        Me.rd_preg1_a.TabIndex = 9
+        Me.rd_preg1_a.TabStop = True
+        Me.rd_preg1_a.Text = "Teide"
+        Me.rd_preg1_a.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(9, 17)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(268, 17)
+        Me.Label2.TabIndex = 8
+        Me.Label2.Text = "¿CUÁL ES EL PICO MÁS ALTO DE ESPAÑA?"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.paisestest2
+        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 31)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(328, 310)
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'P_Superior
+        '
+        Me.P_Superior.Controls.Add(Me.Label1)
+        Me.P_Superior.Controls.Add(Me.PictureBox1)
+        Me.P_Superior.Dock = System.Windows.Forms.DockStyle.Top
+        Me.P_Superior.Location = New System.Drawing.Point(0, 24)
+        Me.P_Superior.Name = "P_Superior"
+        Me.P_Superior.Size = New System.Drawing.Size(1090, 75)
+        Me.P_Superior.TabIndex = 4
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(433, 14)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(263, 42)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Test dos países"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'Test2_Paises
         '
@@ -568,9 +561,9 @@ Partial Class Test2_Paises
         Me.GroupBox2.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.P_Superior.ResumeLayout(False)
         Me.P_Superior.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -589,7 +582,6 @@ Partial Class Test2_Paises
     Friend WithEvents Test2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PaisesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem1 As ToolStripMenuItem
-    Friend WithEvents Test2ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents AnimalesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents Test2ToolStripMenuItem2 As ToolStripMenuItem

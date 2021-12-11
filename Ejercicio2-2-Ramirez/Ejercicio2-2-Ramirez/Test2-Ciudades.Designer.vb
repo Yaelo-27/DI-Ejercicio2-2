@@ -31,7 +31,6 @@ Partial Class Test2_Ciudades
         Me.TestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CiudadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PaisesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test2ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -132,28 +131,22 @@ Partial Class Test2_Ciudades
         '
         'CiudadesToolStripMenuItem
         '
-        Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem, Me.Test2ToolStripMenuItem})
+        Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem})
         Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
-        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
         '
         'Test1ToolStripMenuItem
         '
         Me.Test1ToolStripMenuItem.Name = "Test1ToolStripMenuItem"
-        Me.Test1ToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem.Text = "Test 1"
-        '
-        'Test2ToolStripMenuItem
-        '
-        Me.Test2ToolStripMenuItem.Name = "Test2ToolStripMenuItem"
-        Me.Test2ToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
-        Me.Test2ToolStripMenuItem.Text = "Test 2"
         '
         'PaisesToolStripMenuItem
         '
         Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem1, Me.Test2ToolStripMenuItem1})
         Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
-        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
         'Test1ToolStripMenuItem1
@@ -172,7 +165,7 @@ Partial Class Test2_Ciudades
         '
         Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2, Me.Test2ToolStripMenuItem2})
         Me.AnimalesToolStripMenuItem.Name = "AnimalesToolStripMenuItem"
-        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AnimalesToolStripMenuItem.Text = "Animales"
         '
         'Test1ToolStripMenuItem2
@@ -191,7 +184,7 @@ Partial Class Test2_Ciudades
         '
         Me.ArteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem3, Me.Test2ToolStripMenuItem3})
         Me.ArteToolStripMenuItem.Name = "ArteToolStripMenuItem"
-        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ArteToolStripMenuItem.Text = "Arte"
         '
         'Test1ToolStripMenuItem3
@@ -210,7 +203,7 @@ Partial Class Test2_Ciudades
         '
         Me.TecnologiaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem4, Me.Test2ToolStripMenuItem4})
         Me.TecnologiaToolStripMenuItem.Name = "TecnologiaToolStripMenuItem"
-        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TecnologiaToolStripMenuItem.Text = "Tecnologia"
         '
         'Test1ToolStripMenuItem4
@@ -585,7 +578,6 @@ Partial Class Test2_Ciudades
     Friend WithEvents TestToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CiudadesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Test2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PaisesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents Test2ToolStripMenuItem1 As ToolStripMenuItem

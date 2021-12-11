@@ -206,7 +206,7 @@ Partial Class Form3
         'IrALaWebToolStripMenuItem
         '
         Me.IrALaWebToolStripMenuItem.Name = "IrALaWebToolStripMenuItem"
-        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.IrALaWebToolStripMenuItem.Text = "Ir a la web"
         '
         'P_Superior
@@ -346,6 +346,7 @@ Partial Class Form3
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form3"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Test"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()

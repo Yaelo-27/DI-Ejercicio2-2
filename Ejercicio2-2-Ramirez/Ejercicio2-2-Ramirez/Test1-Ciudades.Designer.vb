@@ -29,7 +29,6 @@ Partial Class Test1_Ciudades
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CiudadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PaisesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -48,37 +47,37 @@ Partial Class Test1_Ciudades
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.btn_Corregir = New System.Windows.Forms.Button()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.P_Superior = New System.Windows.Forms.Panel()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label3 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Label5 = New System.Windows.Forms.Label()
-        Me.rd_preg1_Moscu = New System.Windows.Forms.RadioButton()
-        Me.rd_preg1_sanpet = New System.Windows.Forms.RadioButton()
-        Me.rd_preg1_estambul = New System.Windows.Forms.RadioButton()
-        Me.rd_preg3_SanMarino = New System.Windows.Forms.RadioButton()
-        Me.rd_preg3_CiudaddelVaticano = New System.Windows.Forms.RadioButton()
-        Me.rd_preg3_interlaken = New System.Windows.Forms.RadioButton()
-        Me.rd_preg2_sofia = New System.Windows.Forms.RadioButton()
-        Me.rd_preg2_Palermo = New System.Windows.Forms.RadioButton()
-        Me.rd_preg2_cadiz = New System.Windows.Forms.RadioButton()
         Me.rd_preg4_paris = New System.Windows.Forms.RadioButton()
         Me.rd_preg4_SanPetersburgo = New System.Windows.Forms.RadioButton()
         Me.rd_preg4_madrid = New System.Windows.Forms.RadioButton()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg3_SanMarino = New System.Windows.Forms.RadioButton()
+        Me.rd_preg3_CiudaddelVaticano = New System.Windows.Forms.RadioButton()
+        Me.rd_preg3_interlaken = New System.Windows.Forms.RadioButton()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg2_sofia = New System.Windows.Forms.RadioButton()
+        Me.rd_preg2_Palermo = New System.Windows.Forms.RadioButton()
+        Me.rd_preg2_cadiz = New System.Windows.Forms.RadioButton()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.rd_preg1_estambul = New System.Windows.Forms.RadioButton()
+        Me.rd_preg1_sanpet = New System.Windows.Forms.RadioButton()
+        Me.rd_preg1_Moscu = New System.Windows.Forms.RadioButton()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.P_Superior = New System.Windows.Forms.Panel()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
-        Me.P_Superior.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.P_Superior.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -101,19 +100,19 @@ Partial Class Test1_Ciudades
         'NuevoTrabajadorToolStripMenuItem
         '
         Me.NuevoTrabajadorToolStripMenuItem.Name = "NuevoTrabajadorToolStripMenuItem"
-        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.NuevoTrabajadorToolStripMenuItem.Text = "Nuevo Trabajador"
         '
         'VolverToolStripMenuItem
         '
         Me.VolverToolStripMenuItem.Name = "VolverToolStripMenuItem"
-        Me.VolverToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.VolverToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.VolverToolStripMenuItem.Text = "Volver"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'TestToolStripMenuItem
@@ -125,28 +124,22 @@ Partial Class Test1_Ciudades
         '
         'CiudadesToolStripMenuItem
         '
-        Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem, Me.Test2ToolStripMenuItem})
+        Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test2ToolStripMenuItem})
         Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
-        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
-        '
-        'Test1ToolStripMenuItem
-        '
-        Me.Test1ToolStripMenuItem.Name = "Test1ToolStripMenuItem"
-        Me.Test1ToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
-        Me.Test1ToolStripMenuItem.Text = "Test 1"
         '
         'Test2ToolStripMenuItem
         '
         Me.Test2ToolStripMenuItem.Name = "Test2ToolStripMenuItem"
-        Me.Test2ToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Test2ToolStripMenuItem.Text = "Test 2"
         '
         'PaisesToolStripMenuItem
         '
         Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem1, Me.Test2ToolStripMenuItem1})
         Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
-        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
         'Test1ToolStripMenuItem1
@@ -165,7 +158,7 @@ Partial Class Test1_Ciudades
         '
         Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2, Me.Test2ToolStripMenuItem2})
         Me.AnimalesToolStripMenuItem.Name = "AnimalesToolStripMenuItem"
-        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AnimalesToolStripMenuItem.Text = "Animales"
         '
         'Test1ToolStripMenuItem2
@@ -184,7 +177,7 @@ Partial Class Test1_Ciudades
         '
         Me.ArteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem3, Me.Test2ToolStripMenuItem3})
         Me.ArteToolStripMenuItem.Name = "ArteToolStripMenuItem"
-        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ArteToolStripMenuItem.Text = "Arte"
         '
         'Test1ToolStripMenuItem3
@@ -203,7 +196,7 @@ Partial Class Test1_Ciudades
         '
         Me.TecnologiaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem4, Me.Test2ToolStripMenuItem4})
         Me.TecnologiaToolStripMenuItem.Name = "TecnologiaToolStripMenuItem"
-        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TecnologiaToolStripMenuItem.Text = "Tecnologia"
         '
         'Test1ToolStripMenuItem4
@@ -228,7 +221,7 @@ Partial Class Test1_Ciudades
         'IrALaWebToolStripMenuItem
         '
         Me.IrALaWebToolStripMenuItem.Name = "IrALaWebToolStripMenuItem"
-        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.IrALaWebToolStripMenuItem.Text = "Ir a la web"
         '
         'Panel1
@@ -271,6 +264,52 @@ Partial Class Test1_Ciudades
         Me.GroupBox4.TabStop = False
         Me.GroupBox4.Text = "Pregunta 4"
         '
+        'rd_preg4_paris
+        '
+        Me.rd_preg4_paris.AutoSize = True
+        Me.rd_preg4_paris.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg4_paris.Location = New System.Drawing.Point(23, 113)
+        Me.rd_preg4_paris.Name = "rd_preg4_paris"
+        Me.rd_preg4_paris.Size = New System.Drawing.Size(54, 21)
+        Me.rd_preg4_paris.TabIndex = 12
+        Me.rd_preg4_paris.TabStop = True
+        Me.rd_preg4_paris.Text = "París"
+        Me.rd_preg4_paris.UseVisualStyleBackColor = True
+        '
+        'rd_preg4_SanPetersburgo
+        '
+        Me.rd_preg4_SanPetersburgo.AutoSize = True
+        Me.rd_preg4_SanPetersburgo.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg4_SanPetersburgo.Location = New System.Drawing.Point(23, 90)
+        Me.rd_preg4_SanPetersburgo.Name = "rd_preg4_SanPetersburgo"
+        Me.rd_preg4_SanPetersburgo.Size = New System.Drawing.Size(123, 21)
+        Me.rd_preg4_SanPetersburgo.TabIndex = 11
+        Me.rd_preg4_SanPetersburgo.TabStop = True
+        Me.rd_preg4_SanPetersburgo.Text = "San Petersburgo"
+        Me.rd_preg4_SanPetersburgo.UseVisualStyleBackColor = True
+        '
+        'rd_preg4_madrid
+        '
+        Me.rd_preg4_madrid.AutoSize = True
+        Me.rd_preg4_madrid.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg4_madrid.Location = New System.Drawing.Point(23, 67)
+        Me.rd_preg4_madrid.Name = "rd_preg4_madrid"
+        Me.rd_preg4_madrid.Size = New System.Drawing.Size(69, 21)
+        Me.rd_preg4_madrid.TabIndex = 10
+        Me.rd_preg4_madrid.TabStop = True
+        Me.rd_preg4_madrid.Text = "Madrid"
+        Me.rd_preg4_madrid.UseVisualStyleBackColor = True
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(6, 30)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(316, 34)
+        Me.Label5.TabIndex = 1
+        Me.Label5.Text = "¿EN QUÉ CIUDAD SE ENCUENTRA EL MUSEO CON " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "MÁS  VISITANTES DE EUROPA?"
+        '
         'GroupBox3
         '
         Me.GroupBox3.Controls.Add(Me.rd_preg3_SanMarino)
@@ -283,149 +322,6 @@ Partial Class Test1_Ciudades
         Me.GroupBox3.TabIndex = 2
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Pregunta 3"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.rd_preg2_sofia)
-        Me.GroupBox2.Controls.Add(Me.rd_preg2_Palermo)
-        Me.GroupBox2.Controls.Add(Me.rd_preg2_cadiz)
-        Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Location = New System.Drawing.Point(367, 193)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(327, 156)
-        Me.GroupBox2.TabIndex = 2
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Pregunta 2"
-        '
-        'GroupBox1
-        '
-        Me.GroupBox1.Controls.Add(Me.rd_preg1_estambul)
-        Me.GroupBox1.Controls.Add(Me.rd_preg1_sanpet)
-        Me.GroupBox1.Controls.Add(Me.rd_preg1_Moscu)
-        Me.GroupBox1.Controls.Add(Me.Label2)
-        Me.GroupBox1.Location = New System.Drawing.Point(367, 31)
-        Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(327, 156)
-        Me.GroupBox1.TabIndex = 1
-        Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Pregunta 1"
-        '
-        'P_Superior
-        '
-        Me.P_Superior.Controls.Add(Me.Label1)
-        Me.P_Superior.Controls.Add(Me.PictureBox1)
-        Me.P_Superior.Dock = System.Windows.Forms.DockStyle.Top
-        Me.P_Superior.Location = New System.Drawing.Point(0, 24)
-        Me.P_Superior.Name = "P_Superior"
-        Me.P_Superior.Size = New System.Drawing.Size(1090, 75)
-        Me.P_Superior.TabIndex = 4
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(433, 14)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(311, 42)
-        Me.Label1.TabIndex = 1
-        Me.Label1.Text = "Test dos Ciudades"
-        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ciudadtest1
-        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 31)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(328, 310)
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(6, 26)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(307, 17)
-        Me.Label2.TabIndex = 0
-        Me.Label2.Text = "¿CUÁL ES LA CAPITAL EUROPEA MÁS POBLADA?"
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(6, 26)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(317, 17)
-        Me.Label3.TabIndex = 1
-        Me.Label3.Text = "¿CUÁL ES LA CIUDAD MÁS PEQUEÑA DE EUROPA?"
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(6, 16)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(298, 34)
-        Me.Label4.TabIndex = 1
-        Me.Label4.Text = "¿CUÁL ES LA CIUDAD MÁS ANTIGUA POBLADA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " DE EUROPA?"
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.Location = New System.Drawing.Point(6, 30)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(316, 34)
-        Me.Label5.TabIndex = 1
-        Me.Label5.Text = "¿EN QUÉ CIUDAD SE ENCUENTRA EL MUSEO CON " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "MÁS  VISITANTES DE EUROPA?"
-        '
-        'rd_preg1_Moscu
-        '
-        Me.rd_preg1_Moscu.AutoSize = True
-        Me.rd_preg1_Moscu.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_preg1_Moscu.Location = New System.Drawing.Point(25, 58)
-        Me.rd_preg1_Moscu.Name = "rd_preg1_Moscu"
-        Me.rd_preg1_Moscu.Size = New System.Drawing.Size(65, 21)
-        Me.rd_preg1_Moscu.TabIndex = 1
-        Me.rd_preg1_Moscu.TabStop = True
-        Me.rd_preg1_Moscu.Text = "Moscú"
-        Me.rd_preg1_Moscu.UseVisualStyleBackColor = True
-        '
-        'rd_preg1_sanpet
-        '
-        Me.rd_preg1_sanpet.AutoSize = True
-        Me.rd_preg1_sanpet.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_preg1_sanpet.Location = New System.Drawing.Point(25, 81)
-        Me.rd_preg1_sanpet.Name = "rd_preg1_sanpet"
-        Me.rd_preg1_sanpet.Size = New System.Drawing.Size(123, 21)
-        Me.rd_preg1_sanpet.TabIndex = 2
-        Me.rd_preg1_sanpet.TabStop = True
-        Me.rd_preg1_sanpet.Text = "San Petersburgo"
-        Me.rd_preg1_sanpet.UseVisualStyleBackColor = True
-        '
-        'rd_preg1_estambul
-        '
-        Me.rd_preg1_estambul.AutoSize = True
-        Me.rd_preg1_estambul.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_preg1_estambul.Location = New System.Drawing.Point(25, 104)
-        Me.rd_preg1_estambul.Name = "rd_preg1_estambul"
-        Me.rd_preg1_estambul.Size = New System.Drawing.Size(79, 21)
-        Me.rd_preg1_estambul.TabIndex = 3
-        Me.rd_preg1_estambul.TabStop = True
-        Me.rd_preg1_estambul.Text = "Estambul"
-        Me.rd_preg1_estambul.UseVisualStyleBackColor = True
         '
         'rd_preg3_SanMarino
         '
@@ -463,6 +359,29 @@ Partial Class Test1_Ciudades
         Me.rd_preg3_interlaken.Text = "Interlaken"
         Me.rd_preg3_interlaken.UseVisualStyleBackColor = True
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(6, 26)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(317, 17)
+        Me.Label3.TabIndex = 1
+        Me.Label3.Text = "¿CUÁL ES LA CIUDAD MÁS PEQUEÑA DE EUROPA?"
+        '
+        'GroupBox2
+        '
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_sofia)
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_Palermo)
+        Me.GroupBox2.Controls.Add(Me.rd_preg2_cadiz)
+        Me.GroupBox2.Controls.Add(Me.Label4)
+        Me.GroupBox2.Location = New System.Drawing.Point(367, 193)
+        Me.GroupBox2.Name = "GroupBox2"
+        Me.GroupBox2.Size = New System.Drawing.Size(327, 156)
+        Me.GroupBox2.TabIndex = 2
+        Me.GroupBox2.TabStop = False
+        Me.GroupBox2.Text = "Pregunta 2"
+        '
         'rd_preg2_sofia
         '
         Me.rd_preg2_sofia.AutoSize = True
@@ -499,41 +418,115 @@ Partial Class Test1_Ciudades
         Me.rd_preg2_cadiz.Text = "Cadíz"
         Me.rd_preg2_cadiz.UseVisualStyleBackColor = True
         '
-        'rd_preg4_paris
+        'Label4
         '
-        Me.rd_preg4_paris.AutoSize = True
-        Me.rd_preg4_paris.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_preg4_paris.Location = New System.Drawing.Point(23, 113)
-        Me.rd_preg4_paris.Name = "rd_preg4_paris"
-        Me.rd_preg4_paris.Size = New System.Drawing.Size(54, 21)
-        Me.rd_preg4_paris.TabIndex = 12
-        Me.rd_preg4_paris.TabStop = True
-        Me.rd_preg4_paris.Text = "París"
-        Me.rd_preg4_paris.UseVisualStyleBackColor = True
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(6, 16)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(298, 34)
+        Me.Label4.TabIndex = 1
+        Me.Label4.Text = "¿CUÁL ES LA CIUDAD MÁS ANTIGUA POBLADA" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & " DE EUROPA?"
         '
-        'rd_preg4_SanPetersburgo
+        'GroupBox1
         '
-        Me.rd_preg4_SanPetersburgo.AutoSize = True
-        Me.rd_preg4_SanPetersburgo.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_preg4_SanPetersburgo.Location = New System.Drawing.Point(23, 90)
-        Me.rd_preg4_SanPetersburgo.Name = "rd_preg4_SanPetersburgo"
-        Me.rd_preg4_SanPetersburgo.Size = New System.Drawing.Size(123, 21)
-        Me.rd_preg4_SanPetersburgo.TabIndex = 11
-        Me.rd_preg4_SanPetersburgo.TabStop = True
-        Me.rd_preg4_SanPetersburgo.Text = "San Petersburgo"
-        Me.rd_preg4_SanPetersburgo.UseVisualStyleBackColor = True
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_estambul)
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_sanpet)
+        Me.GroupBox1.Controls.Add(Me.rd_preg1_Moscu)
+        Me.GroupBox1.Controls.Add(Me.Label2)
+        Me.GroupBox1.Location = New System.Drawing.Point(367, 31)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(327, 156)
+        Me.GroupBox1.TabIndex = 1
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Pregunta 1"
         '
-        'rd_preg4_madrid
+        'rd_preg1_estambul
         '
-        Me.rd_preg4_madrid.AutoSize = True
-        Me.rd_preg4_madrid.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.rd_preg4_madrid.Location = New System.Drawing.Point(23, 67)
-        Me.rd_preg4_madrid.Name = "rd_preg4_madrid"
-        Me.rd_preg4_madrid.Size = New System.Drawing.Size(69, 21)
-        Me.rd_preg4_madrid.TabIndex = 10
-        Me.rd_preg4_madrid.TabStop = True
-        Me.rd_preg4_madrid.Text = "Madrid"
-        Me.rd_preg4_madrid.UseVisualStyleBackColor = True
+        Me.rd_preg1_estambul.AutoSize = True
+        Me.rd_preg1_estambul.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_estambul.Location = New System.Drawing.Point(25, 104)
+        Me.rd_preg1_estambul.Name = "rd_preg1_estambul"
+        Me.rd_preg1_estambul.Size = New System.Drawing.Size(79, 21)
+        Me.rd_preg1_estambul.TabIndex = 3
+        Me.rd_preg1_estambul.TabStop = True
+        Me.rd_preg1_estambul.Text = "Estambul"
+        Me.rd_preg1_estambul.UseVisualStyleBackColor = True
+        '
+        'rd_preg1_sanpet
+        '
+        Me.rd_preg1_sanpet.AutoSize = True
+        Me.rd_preg1_sanpet.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_sanpet.Location = New System.Drawing.Point(25, 81)
+        Me.rd_preg1_sanpet.Name = "rd_preg1_sanpet"
+        Me.rd_preg1_sanpet.Size = New System.Drawing.Size(123, 21)
+        Me.rd_preg1_sanpet.TabIndex = 2
+        Me.rd_preg1_sanpet.TabStop = True
+        Me.rd_preg1_sanpet.Text = "San Petersburgo"
+        Me.rd_preg1_sanpet.UseVisualStyleBackColor = True
+        '
+        'rd_preg1_Moscu
+        '
+        Me.rd_preg1_Moscu.AutoSize = True
+        Me.rd_preg1_Moscu.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.rd_preg1_Moscu.Location = New System.Drawing.Point(25, 58)
+        Me.rd_preg1_Moscu.Name = "rd_preg1_Moscu"
+        Me.rd_preg1_Moscu.Size = New System.Drawing.Size(65, 21)
+        Me.rd_preg1_Moscu.TabIndex = 1
+        Me.rd_preg1_Moscu.TabStop = True
+        Me.rd_preg1_Moscu.Text = "Moscú"
+        Me.rd_preg1_Moscu.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(6, 26)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(307, 17)
+        Me.Label2.TabIndex = 0
+        Me.Label2.Text = "¿CUÁL ES LA CAPITAL EUROPEA MÁS POBLADA?"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ciudadtest1
+        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 31)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(328, 310)
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
+        'P_Superior
+        '
+        Me.P_Superior.Controls.Add(Me.Label1)
+        Me.P_Superior.Controls.Add(Me.PictureBox1)
+        Me.P_Superior.Dock = System.Windows.Forms.DockStyle.Top
+        Me.P_Superior.Location = New System.Drawing.Point(0, 24)
+        Me.P_Superior.Name = "P_Superior"
+        Me.P_Superior.Size = New System.Drawing.Size(1090, 75)
+        Me.P_Superior.TabIndex = 4
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft YaHei", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(433, 14)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(311, 42)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "Test dos Ciudades"
+        Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'Test1_Ciudades
         '
@@ -560,9 +553,9 @@ Partial Class Test1_Ciudades
         Me.GroupBox2.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.P_Superior.ResumeLayout(False)
         Me.P_Superior.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -576,7 +569,6 @@ Partial Class Test1_Ciudades
     Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TestToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CiudadesToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents Test1ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test2ToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents PaisesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem1 As ToolStripMenuItem

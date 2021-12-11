@@ -36,7 +36,6 @@ Partial Class Test2_Animales
         Me.Test2ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AnimalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test2ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ArteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test2ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
@@ -47,6 +46,7 @@ Partial Class Test2_Animales
         Me.IrALaWebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.P_Superior = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
         Me.rd_perg4_c = New System.Windows.Forms.RadioButton()
@@ -70,16 +70,15 @@ Partial Class Test2_Animales
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btn_Corregir = New System.Windows.Forms.Button()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.P_Superior.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -127,7 +126,7 @@ Partial Class Test2_Animales
         '
         Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem, Me.Test2ToolStripMenuItem})
         Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
-        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
         '
         'Test1ToolStripMenuItem
@@ -146,7 +145,7 @@ Partial Class Test2_Animales
         '
         Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem1, Me.Test2ToolStripMenuItem1})
         Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
-        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
         'Test1ToolStripMenuItem1
@@ -163,28 +162,22 @@ Partial Class Test2_Animales
         '
         'AnimalesToolStripMenuItem
         '
-        Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2, Me.Test2ToolStripMenuItem2})
+        Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2})
         Me.AnimalesToolStripMenuItem.Name = "AnimalesToolStripMenuItem"
-        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AnimalesToolStripMenuItem.Text = "Animales"
         '
         'Test1ToolStripMenuItem2
         '
         Me.Test1ToolStripMenuItem2.Name = "Test1ToolStripMenuItem2"
-        Me.Test1ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem2.Text = "Test 1"
-        '
-        'Test2ToolStripMenuItem2
-        '
-        Me.Test2ToolStripMenuItem2.Name = "Test2ToolStripMenuItem2"
-        Me.Test2ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
-        Me.Test2ToolStripMenuItem2.Text = "Test 2"
         '
         'ArteToolStripMenuItem
         '
         Me.ArteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem3, Me.Test2ToolStripMenuItem3})
         Me.ArteToolStripMenuItem.Name = "ArteToolStripMenuItem"
-        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ArteToolStripMenuItem.Text = "Arte"
         '
         'Test1ToolStripMenuItem3
@@ -203,7 +196,7 @@ Partial Class Test2_Animales
         '
         Me.TecnologiaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem4, Me.Test2ToolStripMenuItem4})
         Me.TecnologiaToolStripMenuItem.Name = "TecnologiaToolStripMenuItem"
-        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TecnologiaToolStripMenuItem.Text = "Tecnologia"
         '
         'Test1ToolStripMenuItem4
@@ -251,6 +244,16 @@ Partial Class Test2_Animales
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Test dos Animales"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
         '
         'Panel1
         '
@@ -526,16 +529,6 @@ Partial Class Test2_Animales
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
-        '
         'Test2_Animales
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -555,6 +548,7 @@ Partial Class Test2_Animales
         Me.MenuStrip1.PerformLayout()
         Me.P_Superior.ResumeLayout(False)
         Me.P_Superior.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
         Me.GroupBox4.PerformLayout()
@@ -565,7 +559,6 @@ Partial Class Test2_Animales
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -585,7 +578,6 @@ Partial Class Test2_Animales
     Friend WithEvents Test2ToolStripMenuItem1 As ToolStripMenuItem
     Friend WithEvents AnimalesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem2 As ToolStripMenuItem
-    Friend WithEvents Test2ToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents ArteToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem3 As ToolStripMenuItem
     Friend WithEvents Test2ToolStripMenuItem3 As ToolStripMenuItem

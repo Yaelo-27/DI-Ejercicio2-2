@@ -39,7 +39,6 @@ Partial Class Test2_Arte
         Me.Test2ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ArteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test2ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TecnologiaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test2ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
@@ -67,9 +66,9 @@ Partial Class Test2_Arte
         Me.rd_preg1_a = New System.Windows.Forms.RadioButton()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.btn_Corregir = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.P_Superior = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
@@ -77,8 +76,8 @@ Partial Class Test2_Arte
         Me.GroupBox3.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox1.SuspendLayout()
-        Me.P_Superior.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.P_Superior.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -127,7 +126,7 @@ Partial Class Test2_Arte
         '
         Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem, Me.Test2ToolStripMenuItem})
         Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
-        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
         '
         'Test1ToolStripMenuItem
@@ -146,7 +145,7 @@ Partial Class Test2_Arte
         '
         Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem1, Me.Test2ToolStripMenuItem1})
         Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
-        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
         'Test1ToolStripMenuItem1
@@ -165,7 +164,7 @@ Partial Class Test2_Arte
         '
         Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2, Me.Test2ToolStripMenuItem2})
         Me.AnimalesToolStripMenuItem.Name = "AnimalesToolStripMenuItem"
-        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AnimalesToolStripMenuItem.Text = "Animales"
         '
         'Test1ToolStripMenuItem2
@@ -182,28 +181,22 @@ Partial Class Test2_Arte
         '
         'ArteToolStripMenuItem
         '
-        Me.ArteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem3, Me.Test2ToolStripMenuItem3})
+        Me.ArteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem3})
         Me.ArteToolStripMenuItem.Name = "ArteToolStripMenuItem"
-        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ArteToolStripMenuItem.Text = "Arte"
         '
         'Test1ToolStripMenuItem3
         '
         Me.Test1ToolStripMenuItem3.Name = "Test1ToolStripMenuItem3"
-        Me.Test1ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem3.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem3.Text = "Test 1"
-        '
-        'Test2ToolStripMenuItem3
-        '
-        Me.Test2ToolStripMenuItem3.Name = "Test2ToolStripMenuItem3"
-        Me.Test2ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
-        Me.Test2ToolStripMenuItem3.Text = "Test 2"
         '
         'TecnologiaToolStripMenuItem
         '
         Me.TecnologiaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem4, Me.Test2ToolStripMenuItem4})
         Me.TecnologiaToolStripMenuItem.Name = "TecnologiaToolStripMenuItem"
-        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TecnologiaToolStripMenuItem.Text = "Tecnologia"
         '
         'Test1ToolStripMenuItem4
@@ -360,9 +353,9 @@ Partial Class Test2_Arte
         Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(6, 17)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(313, 17)
+        Me.Label3.Size = New System.Drawing.Size(301, 17)
         Me.Label3.TabIndex = 8
-        Me.Label3.Text = "¿Quién es el autor de ““La batalla de Anghiari””? " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label3.Text = "¿Quién es el autor de ""La batalla de Anghiari""? " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'GroupBox2
         '
@@ -495,6 +488,16 @@ Partial Class Test2_Arte
         Me.btn_Corregir.Text = "Corregir"
         Me.btn_Corregir.UseVisualStyleBackColor = True
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.arte2
+        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.PictureBox2.Location = New System.Drawing.Point(12, 31)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(328, 310)
+        Me.PictureBox2.TabIndex = 0
+        Me.PictureBox2.TabStop = False
+        '
         'P_Superior
         '
         Me.P_Superior.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(159, Byte), Integer))
@@ -516,16 +519,6 @@ Partial Class Test2_Arte
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Test dos arte"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'PictureBox2
-        '
-        Me.PictureBox2.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.arte2
-        Me.PictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.PictureBox2.Location = New System.Drawing.Point(12, 31)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(328, 310)
-        Me.PictureBox2.TabIndex = 0
-        Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '
@@ -560,9 +553,9 @@ Partial Class Test2_Arte
         Me.GroupBox2.PerformLayout()
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.P_Superior.ResumeLayout(False)
         Me.P_Superior.PerformLayout()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -586,7 +579,6 @@ Partial Class Test2_Arte
     Friend WithEvents Test2ToolStripMenuItem2 As ToolStripMenuItem
     Friend WithEvents ArteToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem3 As ToolStripMenuItem
-    Friend WithEvents Test2ToolStripMenuItem3 As ToolStripMenuItem
     Friend WithEvents TecnologiaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem4 As ToolStripMenuItem
     Friend WithEvents Test2ToolStripMenuItem4 As ToolStripMenuItem

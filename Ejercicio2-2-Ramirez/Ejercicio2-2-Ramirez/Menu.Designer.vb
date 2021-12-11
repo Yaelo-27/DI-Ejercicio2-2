@@ -54,6 +54,18 @@ Partial Class Form2
         Me.L_genero = New System.Windows.Forms.Label()
         Me.L_Nombre = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.L_Correo = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.P_Botones.SuspendLayout()
         Me.P_Avatar.SuspendLayout()
         CType(Me.pb_avatar, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -162,13 +174,13 @@ Partial Class Form2
         'NuevoTrabajadorToolStripMenuItem
         '
         Me.NuevoTrabajadorToolStripMenuItem.Name = "NuevoTrabajadorToolStripMenuItem"
-        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.NuevoTrabajadorToolStripMenuItem.Text = "Nuevo Trabajador"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'TestToolStripMenuItem
@@ -188,13 +200,13 @@ Partial Class Form2
         'Test1ToolStripMenuItem
         '
         Me.Test1ToolStripMenuItem.Name = "Test1ToolStripMenuItem"
-        Me.Test1ToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem.Text = "Test 1"
         '
         'Test2ToolStripMenuItem
         '
         Me.Test2ToolStripMenuItem.Name = "Test2ToolStripMenuItem"
-        Me.Test2ToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.Test2ToolStripMenuItem.Text = "Test 2"
         '
         'PaisesToolStripMenuItem
@@ -207,13 +219,13 @@ Partial Class Form2
         'Test1ToolStripMenuItem1
         '
         Me.Test1ToolStripMenuItem1.Name = "Test1ToolStripMenuItem1"
-        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem1.Text = "Test 1"
         '
         'Test2ToolStripMenuItem1
         '
         Me.Test2ToolStripMenuItem1.Name = "Test2ToolStripMenuItem1"
-        Me.Test2ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
         Me.Test2ToolStripMenuItem1.Text = "Test 2"
         '
         'AnimalesToolStripMenuItem
@@ -226,13 +238,13 @@ Partial Class Form2
         'Test1ToolStripMenuItem2
         '
         Me.Test1ToolStripMenuItem2.Name = "Test1ToolStripMenuItem2"
-        Me.Test1ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem2.Text = "Test 1"
         '
         'Test2ToolStripMenuItem2
         '
         Me.Test2ToolStripMenuItem2.Name = "Test2ToolStripMenuItem2"
-        Me.Test2ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
         Me.Test2ToolStripMenuItem2.Text = "Test 2"
         '
         'ArteToolStripMenuItem
@@ -245,13 +257,13 @@ Partial Class Form2
         'Test1ToolStripMenuItem3
         '
         Me.Test1ToolStripMenuItem3.Name = "Test1ToolStripMenuItem3"
-        Me.Test1ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem3.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem3.Text = "Test 1"
         '
         'Test2ToolStripMenuItem3
         '
         Me.Test2ToolStripMenuItem3.Name = "Test2ToolStripMenuItem3"
-        Me.Test2ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem3.Size = New System.Drawing.Size(180, 22)
         Me.Test2ToolStripMenuItem3.Text = "Test 2"
         '
         'TecnologiaToolStripMenuItem
@@ -264,13 +276,13 @@ Partial Class Form2
         'Test1ToolStripMenuItem4
         '
         Me.Test1ToolStripMenuItem4.Name = "Test1ToolStripMenuItem4"
-        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
         Me.Test1ToolStripMenuItem4.Text = "Test 1"
         '
         'Test2ToolStripMenuItem4
         '
         Me.Test2ToolStripMenuItem4.Name = "Test2ToolStripMenuItem4"
-        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
         Me.Test2ToolStripMenuItem4.Text = "Test 2"
         '
         'WebToolStripMenuItem
@@ -283,7 +295,7 @@ Partial Class Form2
         'IrALaWebToolStripMenuItem
         '
         Me.IrALaWebToolStripMenuItem.Name = "IrALaWebToolStripMenuItem"
-        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.IrALaWebToolStripMenuItem.Text = "Ir a la web"
         '
         'P_Bienvenida
@@ -327,12 +339,143 @@ Partial Class Form2
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Bienvenido!!! "
         '
+        'Label3
+        '
+        Me.Label3.AutoSize = True
+        Me.Label3.Font = New System.Drawing.Font("Microsoft YaHei", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.Location = New System.Drawing.Point(349, 166)
+        Me.Label3.Name = "Label3"
+        Me.Label3.Size = New System.Drawing.Size(304, 42)
+        Me.Label3.TabIndex = 4
+        Me.Label3.Text = "Centro de control"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(215, 225)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(167, 26)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Faltas al puesto:"
+        '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label4.Location = New System.Drawing.Point(386, 228)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(19, 21)
+        Me.Label4.TabIndex = 6
+        Me.Label4.Text = "5"
+        '
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label5.Location = New System.Drawing.Point(215, 264)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(159, 26)
+        Me.Label5.TabIndex = 7
+        Me.Label5.Text = "Test asignados:"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(377, 267)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(28, 21)
+        Me.Label6.TabIndex = 8
+        Me.Label6.Text = "10"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(205, 389)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(510, 26)
+        Me.Label7.TabIndex = 9
+        Me.Label7.Text = "Recuerde para cualquier problema de la plataforma"
+        '
+        'Label8
+        '
+        Me.Label8.AutoSize = True
+        Me.Label8.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Location = New System.Drawing.Point(206, 415)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(345, 26)
+        Me.Label8.TabIndex = 10
+        Me.Label8.Text = "Contactar a: Admin@empresa.com"
+        '
+        'Label9
+        '
+        Me.Label9.AutoSize = True
+        Me.Label9.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(215, 309)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(0, 26)
+        Me.Label9.TabIndex = 11
+        '
+        'Label10
+        '
+        Me.Label10.AutoSize = True
+        Me.Label10.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(215, 309)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(174, 26)
+        Me.Label10.TabIndex = 12
+        Me.Label10.Text = "Correo asignado:"
+        '
+        'L_Correo
+        '
+        Me.L_Correo.AutoSize = True
+        Me.L_Correo.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.L_Correo.Location = New System.Drawing.Point(386, 312)
+        Me.L_Correo.Name = "L_Correo"
+        Me.L_Correo.Size = New System.Drawing.Size(38, 21)
+        Me.L_Correo.TabIndex = 13
+        Me.L_Correo.Text = "null"
+        '
+        'Label11
+        '
+        Me.Label11.AutoSize = True
+        Me.Label11.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.Location = New System.Drawing.Point(215, 348)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(187, 26)
+        Me.Label11.TabIndex = 14
+        Me.Label11.Text = "Test completados:"
+        '
+        'Label12
+        '
+        Me.Label12.AutoSize = True
+        Me.Label12.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(398, 351)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(28, 21)
+        Me.Label12.TabIndex = 15
+        Me.Label12.Text = "11"
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(159, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Label11)
+        Me.Controls.Add(Me.L_Correo)
+        Me.Controls.Add(Me.Label10)
+        Me.Controls.Add(Me.Label9)
+        Me.Controls.Add(Me.Label8)
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label5)
+        Me.Controls.Add(Me.Label4)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.P_Bienvenida)
         Me.Controls.Add(Me.P_Botones)
         Me.Controls.Add(Me.MenuStrip1)
@@ -341,6 +484,7 @@ Partial Class Form2
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Form2"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Menu"
         Me.P_Botones.ResumeLayout(False)
         Me.P_Avatar.ResumeLayout(False)
@@ -386,4 +530,16 @@ Partial Class Form2
     Friend WithEvents TecnologiaToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents Test1ToolStripMenuItem4 As ToolStripMenuItem
     Friend WithEvents Test2ToolStripMenuItem4 As ToolStripMenuItem
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents Label5 As Label
+    Friend WithEvents Label6 As Label
+    Friend WithEvents Label7 As Label
+    Friend WithEvents Label8 As Label
+    Friend WithEvents Label9 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents L_Correo As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label12 As Label
 End Class
