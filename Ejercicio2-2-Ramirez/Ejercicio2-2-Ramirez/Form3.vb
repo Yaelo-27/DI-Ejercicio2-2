@@ -18,21 +18,21 @@
 
     Private Sub btnPaises_Click(sender As Object, e As EventArgs) Handles btnPaises.Click
         Me.Hide()
-        Form5.Show()
+        Paises.Show()
     End Sub
 
     Private Sub btnAnimales_Click(sender As Object, e As EventArgs) Handles btnAnimales.Click
         Me.Hide()
-        Form6.Show()
+        Animales.Show()
     End Sub
 
     Private Sub btnArte_Click(sender As Object, e As EventArgs) Handles btnArte.Click
         Me.Hide()
-        Form7.Show()
+        Arte.Show()
     End Sub
 
     Private Sub btnTecnologia_Click(sender As Object, e As EventArgs) Handles btnTecnologia.Click
         Me.Hide()
-        Form8.Show()
+        Tecnologia.Show()
     End Sub
 End Class

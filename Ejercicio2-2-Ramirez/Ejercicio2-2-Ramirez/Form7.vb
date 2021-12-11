@@ -1,4 +1,4 @@
-﻿Public Class Form7
+﻿Public Class Arte
     Private Sub NuevoTrabajadorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NuevoTrabajadorToolStripMenuItem.Click
         Me.Close()
         Form3.Close()

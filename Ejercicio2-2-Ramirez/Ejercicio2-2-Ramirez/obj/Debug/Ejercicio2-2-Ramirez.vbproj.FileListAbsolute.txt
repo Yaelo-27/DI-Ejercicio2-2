@@ -13,7 +13,11 @@ E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejerc
 E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Form2.resources
 E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Form3.resources
 E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Form4.resources
-E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Form5.resources
-E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Form6.resources
-E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Form7.resources
-E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Form8.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Paises.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Animales.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Arte.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Tecnologia.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test1_Animales.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test1_Ciudades.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test2_Animales.resources
+E:\FPsuperior\Desarrollo de intefaces\DI-Ejercicio2-2\Ejercicio2-2-Ramirez\Ejercicio2-2-Ramirez\obj\Debug\Ejercicio2_2_Ramirez.Test2_Ciudades.resources

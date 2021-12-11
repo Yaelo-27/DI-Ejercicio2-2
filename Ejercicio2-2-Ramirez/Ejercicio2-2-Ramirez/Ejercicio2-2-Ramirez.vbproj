@@ -137,6 +137,30 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Test1-Animales.Designer.vb">
+      <DependentUpon>Test1-Animales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test1-Animales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test1-Ciudades.Designer.vb">
+      <DependentUpon>Test1-Ciudades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test1-Ciudades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test2-Animales.Designer.vb">
+      <DependentUpon>Test2-Animales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test2-Animales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Test2-Ciudades.Designer.vb">
+      <DependentUpon>Test2-Ciudades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Test2-Ciudades.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -168,6 +192,18 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test1-Animales.resx">
+      <DependentUpon>Test1-Animales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test1-Ciudades.resx">
+      <DependentUpon>Test1-Ciudades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test2-Animales.resx">
+      <DependentUpon>Test2-Animales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Test2-Ciudades.resx">
+      <DependentUpon>Test2-Ciudades.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
