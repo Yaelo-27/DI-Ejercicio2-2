@@ -1,5 +1,5 @@
 ﻿Public Class Test1_Paises
-    Dim contador As Integer = 0
+    Public contador As Integer = 0
     Private Sub btn_Corregir_Click(sender As Object, e As EventArgs) Handles btn_Corregir.Click
         'Pregunta número 1'
         If (rd_preg1_a.Checked = True) Then
@@ -75,7 +75,7 @@
     End Sub
 
     Private Sub VolverToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VolverToolStripMenuItem.Click
-        Me.Close()
+        Me.Hide()
         Paises.Show()
     End Sub
 
@@ -136,4 +136,13 @@
         Test2_Tec.Show()
     End Sub
 
+    Private Sub VolverAMenuToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VolverAMenuToolStripMenuItem.Click
+        Me.Hide()
+        Form2.Show()
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Me.Hide()
+        Form2.Show()
+    End Sub
 End Class

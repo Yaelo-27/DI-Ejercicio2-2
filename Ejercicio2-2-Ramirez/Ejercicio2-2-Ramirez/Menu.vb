@@ -1,4 +1,11 @@
 ﻿Public Class Form2
+    Dim contador_ciudades As Integer
+    Dim contador_paises As Integer
+    Dim contador_arte As Integer
+    Dim contador_tec As Integer
+    Dim contador_animales As Integer
+    Dim contador_general As Integer
+
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If (Inicio.RD_Trabajador.Checked = True) Then
             L_genero.Text = "Trabajador:"
@@ -14,8 +21,6 @@
             pb_avatar.BackgroundImage = My.Resources.Trabajadora
         End If
 
-
-
     End Sub
 
     Private Sub btn_Volver_Click(sender As Object, e As EventArgs) Handles btn_Volver.Click
@@ -25,6 +30,7 @@
 
     Private Sub btn_Salir_Click(sender As Object, e As EventArgs) Handles btn_Salir.Click
         Me.Close()
+        cerrarsesiones()
         Inicio.Close()
     End Sub
 
@@ -35,6 +41,7 @@
 
     Private Sub NuevoTrabajadorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NuevoTrabajadorToolStripMenuItem.Click
         Me.Close()
+        cerrarsesiones()
         Inicio.Show()
     End Sub
 
@@ -96,4 +103,29 @@
         Me.Hide()
         Test2_Tec.Show()
     End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        contador_ciudades = Test1_Ciudades.contador + Test2_Ciudades.contador
+        contador_animales = Test1_Animales.contador + Test2_Animales.contador
+        contador_paises = Test1_Paises.contador + Test2_Paises.contador
+        contador_arte = Test1_Arte.contador + Test2_Arte.contador
+        contador_tec = Test1_Tec.contador + Test2_Tec.contador
+        contador_general = contador_animales + contador_arte + contador_ciudades + contador_paises + contador_tec
+        L_puntos.Text = contador_general.ToString()
+    End Sub
+
+    Private Sub cerrarsesiones()
+        Test1_Animales.Close()
+        Test1_Arte.Close()
+        Test1_Ciudades.Close()
+        Test1_Paises.Close()
+        Test1_Tec.Close()
+        Test2_Animales.Close()
+        Test2_Arte.Close()
+        Test2_Ciudades.Close()
+        Test2_Paises.Close()
+        Test2_Tec.Close()
+    End Sub
+
+
 End Class

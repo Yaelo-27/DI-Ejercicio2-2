@@ -85,7 +85,7 @@ Partial Class Form3
         'VolverToolStripMenuItem
         '
         Me.VolverToolStripMenuItem.Name = "VolverToolStripMenuItem"
-        Me.VolverToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.VolverToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VolverToolStripMenuItem.Text = "Volver"
         '
         'SalirToolStripMenuItem

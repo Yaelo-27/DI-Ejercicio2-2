@@ -23,11 +23,7 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.P_Botones = New System.Windows.Forms.Panel()
-        Me.btn_Salir = New System.Windows.Forms.Button()
-        Me.btn_Volver = New System.Windows.Forms.Button()
-        Me.btn_Test = New System.Windows.Forms.Button()
         Me.P_Avatar = New System.Windows.Forms.Panel()
-        Me.pb_avatar = New System.Windows.Forms.PictureBox()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoTrabajadorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -66,11 +62,18 @@ Partial Class Form2
         Me.L_Correo = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.L_puntos = New System.Windows.Forms.Label()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.btn_Salir = New System.Windows.Forms.Button()
+        Me.btn_Volver = New System.Windows.Forms.Button()
+        Me.btn_Test = New System.Windows.Forms.Button()
+        Me.pb_avatar = New System.Windows.Forms.PictureBox()
         Me.P_Botones.SuspendLayout()
         Me.P_Avatar.SuspendLayout()
-        CType(Me.pb_avatar, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.P_Bienvenida.SuspendLayout()
+        CType(Me.pb_avatar, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'P_Botones
@@ -86,57 +89,6 @@ Partial Class Form2
         Me.P_Botones.Size = New System.Drawing.Size(200, 426)
         Me.P_Botones.TabIndex = 0
         '
-        'btn_Salir
-        '
-        Me.btn_Salir.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.salir
-        Me.btn_Salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_Salir.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btn_Salir.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.btn_Salir.FlatAppearance.BorderSize = 0
-        Me.btn_Salir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
-        Me.btn_Salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_Salir.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Salir.ForeColor = System.Drawing.Color.OrangeRed
-        Me.btn_Salir.Location = New System.Drawing.Point(0, 295)
-        Me.btn_Salir.Name = "btn_Salir"
-        Me.btn_Salir.Size = New System.Drawing.Size(198, 84)
-        Me.btn_Salir.TabIndex = 3
-        Me.btn_Salir.UseVisualStyleBackColor = True
-        '
-        'btn_Volver
-        '
-        Me.btn_Volver.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.volver
-        Me.btn_Volver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_Volver.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btn_Volver.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.btn_Volver.FlatAppearance.BorderSize = 0
-        Me.btn_Volver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
-        Me.btn_Volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_Volver.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Volver.ForeColor = System.Drawing.Color.OrangeRed
-        Me.btn_Volver.Location = New System.Drawing.Point(0, 211)
-        Me.btn_Volver.Name = "btn_Volver"
-        Me.btn_Volver.Size = New System.Drawing.Size(198, 84)
-        Me.btn_Volver.TabIndex = 2
-        Me.btn_Volver.UseVisualStyleBackColor = True
-        '
-        'btn_Test
-        '
-        Me.btn_Test.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.test
-        Me.btn_Test.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.btn_Test.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btn_Test.FlatAppearance.BorderColor = System.Drawing.Color.Black
-        Me.btn_Test.FlatAppearance.BorderSize = 0
-        Me.btn_Test.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
-        Me.btn_Test.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btn_Test.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Test.ForeColor = System.Drawing.Color.OrangeRed
-        Me.btn_Test.Location = New System.Drawing.Point(0, 127)
-        Me.btn_Test.Name = "btn_Test"
-        Me.btn_Test.Size = New System.Drawing.Size(198, 84)
-        Me.btn_Test.TabIndex = 1
-        Me.btn_Test.UseVisualStyleBackColor = True
-        '
         'P_Avatar
         '
         Me.P_Avatar.Controls.Add(Me.pb_avatar)
@@ -145,15 +97,6 @@ Partial Class Form2
         Me.P_Avatar.Name = "P_Avatar"
         Me.P_Avatar.Size = New System.Drawing.Size(198, 127)
         Me.P_Avatar.TabIndex = 0
-        '
-        'pb_avatar
-        '
-        Me.pb_avatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.pb_avatar.Location = New System.Drawing.Point(4, 2)
-        Me.pb_avatar.Name = "pb_avatar"
-        Me.pb_avatar.Size = New System.Drawing.Size(191, 119)
-        Me.pb_avatar.TabIndex = 0
-        Me.pb_avatar.TabStop = False
         '
         'MenuStrip1
         '
@@ -194,95 +137,95 @@ Partial Class Form2
         '
         Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem, Me.Test2ToolStripMenuItem})
         Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
-        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
         '
         'Test1ToolStripMenuItem
         '
         Me.Test1ToolStripMenuItem.Name = "Test1ToolStripMenuItem"
-        Me.Test1ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Test1ToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
         Me.Test1ToolStripMenuItem.Text = "Test 1"
         '
         'Test2ToolStripMenuItem
         '
         Me.Test2ToolStripMenuItem.Name = "Test2ToolStripMenuItem"
-        Me.Test2ToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.Test2ToolStripMenuItem.Size = New System.Drawing.Size(103, 22)
         Me.Test2ToolStripMenuItem.Text = "Test 2"
         '
         'PaisesToolStripMenuItem
         '
         Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem1, Me.Test2ToolStripMenuItem1})
         Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
-        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
         'Test1ToolStripMenuItem1
         '
         Me.Test1ToolStripMenuItem1.Name = "Test1ToolStripMenuItem1"
-        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
         Me.Test1ToolStripMenuItem1.Text = "Test 1"
         '
         'Test2ToolStripMenuItem1
         '
         Me.Test2ToolStripMenuItem1.Name = "Test2ToolStripMenuItem1"
-        Me.Test2ToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.Test2ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
         Me.Test2ToolStripMenuItem1.Text = "Test 2"
         '
         'AnimalesToolStripMenuItem
         '
         Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2, Me.Test2ToolStripMenuItem2})
         Me.AnimalesToolStripMenuItem.Name = "AnimalesToolStripMenuItem"
-        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.AnimalesToolStripMenuItem.Text = "Animales"
         '
         'Test1ToolStripMenuItem2
         '
         Me.Test1ToolStripMenuItem2.Name = "Test1ToolStripMenuItem2"
-        Me.Test1ToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
+        Me.Test1ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
         Me.Test1ToolStripMenuItem2.Text = "Test 1"
         '
         'Test2ToolStripMenuItem2
         '
         Me.Test2ToolStripMenuItem2.Name = "Test2ToolStripMenuItem2"
-        Me.Test2ToolStripMenuItem2.Size = New System.Drawing.Size(180, 22)
+        Me.Test2ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
         Me.Test2ToolStripMenuItem2.Text = "Test 2"
         '
         'ArteToolStripMenuItem
         '
         Me.ArteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem3, Me.Test2ToolStripMenuItem3})
         Me.ArteToolStripMenuItem.Name = "ArteToolStripMenuItem"
-        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.ArteToolStripMenuItem.Text = "Arte"
         '
         'Test1ToolStripMenuItem3
         '
         Me.Test1ToolStripMenuItem3.Name = "Test1ToolStripMenuItem3"
-        Me.Test1ToolStripMenuItem3.Size = New System.Drawing.Size(180, 22)
+        Me.Test1ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
         Me.Test1ToolStripMenuItem3.Text = "Test 1"
         '
         'Test2ToolStripMenuItem3
         '
         Me.Test2ToolStripMenuItem3.Name = "Test2ToolStripMenuItem3"
-        Me.Test2ToolStripMenuItem3.Size = New System.Drawing.Size(180, 22)
+        Me.Test2ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
         Me.Test2ToolStripMenuItem3.Text = "Test 2"
         '
         'TecnologiaToolStripMenuItem
         '
         Me.TecnologiaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem4, Me.Test2ToolStripMenuItem4})
         Me.TecnologiaToolStripMenuItem.Name = "TecnologiaToolStripMenuItem"
-        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.TecnologiaToolStripMenuItem.Text = "Tecnologia"
         '
         'Test1ToolStripMenuItem4
         '
         Me.Test1ToolStripMenuItem4.Name = "Test1ToolStripMenuItem4"
-        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
+        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
         Me.Test1ToolStripMenuItem4.Text = "Test 1"
         '
         'Test2ToolStripMenuItem4
         '
         Me.Test2ToolStripMenuItem4.Name = "Test2ToolStripMenuItem4"
-        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
+        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
         Me.Test2ToolStripMenuItem4.Text = "Test 2"
         '
         'WebToolStripMenuItem
@@ -458,12 +401,109 @@ Partial Class Form2
         Me.Label12.TabIndex = 15
         Me.Label12.Text = "11"
         '
+        'Label13
+        '
+        Me.Label13.AutoSize = True
+        Me.Label13.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(471, 228)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(153, 26)
+        Me.Label13.TabIndex = 16
+        Me.Label13.Text = "Puntos totales:"
+        '
+        'L_puntos
+        '
+        Me.L_puntos.AutoSize = True
+        Me.L_puntos.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.L_puntos.Location = New System.Drawing.Point(630, 231)
+        Me.L_puntos.Name = "L_puntos"
+        Me.L_puntos.Size = New System.Drawing.Size(19, 21)
+        Me.L_puntos.TabIndex = 17
+        Me.L_puntos.Text = "0"
+        '
+        'Button1
+        '
+        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(685, 166)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(103, 56)
+        Me.Button1.TabIndex = 18
+        Me.Button1.Text = "Refrescar"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
+        'btn_Salir
+        '
+        Me.btn_Salir.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.salir
+        Me.btn_Salir.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_Salir.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btn_Salir.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btn_Salir.FlatAppearance.BorderSize = 0
+        Me.btn_Salir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
+        Me.btn_Salir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_Salir.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_Salir.ForeColor = System.Drawing.Color.OrangeRed
+        Me.btn_Salir.Location = New System.Drawing.Point(0, 295)
+        Me.btn_Salir.Name = "btn_Salir"
+        Me.btn_Salir.Size = New System.Drawing.Size(198, 84)
+        Me.btn_Salir.TabIndex = 3
+        Me.btn_Salir.UseVisualStyleBackColor = True
+        '
+        'btn_Volver
+        '
+        Me.btn_Volver.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.volver
+        Me.btn_Volver.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_Volver.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btn_Volver.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btn_Volver.FlatAppearance.BorderSize = 0
+        Me.btn_Volver.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
+        Me.btn_Volver.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_Volver.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_Volver.ForeColor = System.Drawing.Color.OrangeRed
+        Me.btn_Volver.Location = New System.Drawing.Point(0, 211)
+        Me.btn_Volver.Name = "btn_Volver"
+        Me.btn_Volver.Size = New System.Drawing.Size(198, 84)
+        Me.btn_Volver.TabIndex = 2
+        Me.btn_Volver.UseVisualStyleBackColor = True
+        '
+        'btn_Test
+        '
+        Me.btn_Test.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.test
+        Me.btn_Test.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.btn_Test.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btn_Test.FlatAppearance.BorderColor = System.Drawing.Color.Black
+        Me.btn_Test.FlatAppearance.BorderSize = 0
+        Me.btn_Test.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
+        Me.btn_Test.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btn_Test.Font = New System.Drawing.Font("Microsoft YaHei", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btn_Test.ForeColor = System.Drawing.Color.OrangeRed
+        Me.btn_Test.Location = New System.Drawing.Point(0, 127)
+        Me.btn_Test.Name = "btn_Test"
+        Me.btn_Test.Size = New System.Drawing.Size(198, 84)
+        Me.btn_Test.TabIndex = 1
+        Me.btn_Test.UseVisualStyleBackColor = True
+        '
+        'pb_avatar
+        '
+        Me.pb_avatar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.pb_avatar.Location = New System.Drawing.Point(4, 2)
+        Me.pb_avatar.Name = "pb_avatar"
+        Me.pb_avatar.Size = New System.Drawing.Size(191, 119)
+        Me.pb_avatar.TabIndex = 0
+        Me.pb_avatar.TabStop = False
+        '
         'Form2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(32, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(159, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.L_puntos)
+        Me.Controls.Add(Me.Label13)
         Me.Controls.Add(Me.Label12)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.L_Correo)
@@ -488,11 +528,11 @@ Partial Class Form2
         Me.Text = "Menu"
         Me.P_Botones.ResumeLayout(False)
         Me.P_Avatar.ResumeLayout(False)
-        CType(Me.pb_avatar, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.P_Bienvenida.ResumeLayout(False)
         Me.P_Bienvenida.PerformLayout()
+        CType(Me.pb_avatar, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -542,4 +582,7 @@ Partial Class Form2
     Friend WithEvents L_Correo As Label
     Friend WithEvents Label11 As Label
     Friend WithEvents Label12 As Label
+    Friend WithEvents Label13 As Label
+    Friend WithEvents L_puntos As Label
+    Friend WithEvents Button1 As Button
 End Class

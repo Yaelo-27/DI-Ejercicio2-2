@@ -28,6 +28,7 @@ Partial Class Test2_Paises
         Me.PuntuacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VolverToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VolverAMenuToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CiudadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -71,6 +72,7 @@ Partial Class Test2_Paises
         Me.P_Superior = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.Panel1.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
@@ -84,7 +86,7 @@ Partial Class Test2_Paises
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.TestToolStripMenuItem, Me.WebToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.VolverAMenuToolStripMenuItem, Me.TestToolStripMenuItem, Me.WebToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(1090, 24)
@@ -122,6 +124,12 @@ Partial Class Test2_Paises
         Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
+        'VolverAMenuToolStripMenuItem
+        '
+        Me.VolverAMenuToolStripMenuItem.Name = "VolverAMenuToolStripMenuItem"
+        Me.VolverAMenuToolStripMenuItem.Size = New System.Drawing.Size(94, 20)
+        Me.VolverAMenuToolStripMenuItem.Text = "Volver a menu"
+        '
         'TestToolStripMenuItem
         '
         Me.TestToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CiudadesToolStripMenuItem, Me.PaisesToolStripMenuItem, Me.AnimalesToolStripMenuItem, Me.ArteToolStripMenuItem, Me.TecnologiaToolStripMenuItem})
@@ -133,7 +141,7 @@ Partial Class Test2_Paises
         '
         Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem, Me.Test2ToolStripMenuItem})
         Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
-        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
         '
         'Test1ToolStripMenuItem
@@ -152,20 +160,20 @@ Partial Class Test2_Paises
         '
         Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem1})
         Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
-        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
         'Test1ToolStripMenuItem1
         '
         Me.Test1ToolStripMenuItem1.Name = "Test1ToolStripMenuItem1"
-        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(180, 22)
+        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
         Me.Test1ToolStripMenuItem1.Text = "Test 1"
         '
         'AnimalesToolStripMenuItem
         '
         Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2, Me.Test2ToolStripMenuItem2})
         Me.AnimalesToolStripMenuItem.Name = "AnimalesToolStripMenuItem"
-        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.AnimalesToolStripMenuItem.Text = "Animales"
         '
         'Test1ToolStripMenuItem2
@@ -184,7 +192,7 @@ Partial Class Test2_Paises
         '
         Me.ArteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem3, Me.Test2ToolStripMenuItem3})
         Me.ArteToolStripMenuItem.Name = "ArteToolStripMenuItem"
-        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.ArteToolStripMenuItem.Text = "Arte"
         '
         'Test1ToolStripMenuItem3
@@ -203,19 +211,19 @@ Partial Class Test2_Paises
         '
         Me.TecnologiaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem4, Me.Test2ToolStripMenuItem4})
         Me.TecnologiaToolStripMenuItem.Name = "TecnologiaToolStripMenuItem"
-        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.TecnologiaToolStripMenuItem.Text = "Tecnologia"
         '
         'Test1ToolStripMenuItem4
         '
         Me.Test1ToolStripMenuItem4.Name = "Test1ToolStripMenuItem4"
-        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
+        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
         Me.Test1ToolStripMenuItem4.Text = "Test 1"
         '
         'Test2ToolStripMenuItem4
         '
         Me.Test2ToolStripMenuItem4.Name = "Test2ToolStripMenuItem4"
-        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(180, 22)
+        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
         Me.Test2ToolStripMenuItem4.Text = "Test 2"
         '
         'WebToolStripMenuItem
@@ -233,6 +241,7 @@ Partial Class Test2_Paises
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Button1)
         Me.Panel1.Controls.Add(Me.btn_Corregir)
         Me.Panel1.Controls.Add(Me.GroupBox4)
         Me.Panel1.Controls.Add(Me.GroupBox3)
@@ -251,7 +260,7 @@ Partial Class Test2_Paises
         Me.btn_Corregir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
         Me.btn_Corregir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btn_Corregir.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_Corregir.Location = New System.Drawing.Point(616, 355)
+        Me.btn_Corregir.Location = New System.Drawing.Point(511, 355)
         Me.btn_Corregir.Name = "btn_Corregir"
         Me.btn_Corregir.Size = New System.Drawing.Size(197, 45)
         Me.btn_Corregir.TabIndex = 3
@@ -536,6 +545,19 @@ Partial Class Test2_Paises
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
+        'Button1
+        '
+        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(CType(CType(10, Byte), Integer), CType(CType(206, Byte), Integer), CType(CType(121, Byte), Integer))
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(726, 353)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(197, 45)
+        Me.Button1.TabIndex = 10
+        Me.Button1.Text = "Volver al menu"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Test2_Paises
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -619,4 +641,6 @@ Partial Class Test2_Paises
     Friend WithEvents rd_perg4_b As RadioButton
     Friend WithEvents rd_perg4_a As RadioButton
     Friend WithEvents Label5 As Label
+    Friend WithEvents VolverAMenuToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents Button1 As Button
 End Class

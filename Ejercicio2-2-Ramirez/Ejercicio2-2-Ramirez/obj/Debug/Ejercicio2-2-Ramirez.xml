@@ -82,6 +82,16 @@ Ejercicio2-2-Ramirez
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:Ejercicio2_2_Ramirez.My.Resources.Resources.r">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Ejercicio2_2_Ramirez.My.Resources.Resources.Refresh">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Ejercicio2_2_Ramirez.My.Resources.Resources.salir">
 <summary>
   Busca un recurso adaptado de tipo System.Drawing.Bitmap.

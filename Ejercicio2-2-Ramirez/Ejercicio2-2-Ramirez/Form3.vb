@@ -7,6 +7,7 @@
 
     Private Sub NuevoTrabajadorToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles NuevoTrabajadorToolStripMenuItem.Click
         Me.Close()
+        cerrarsesiones()
         Form2.Close()
         Inicio.Show()
     End Sub
@@ -88,6 +89,23 @@
     Private Sub Test2ToolStripMenuItem4_Click(sender As Object, e As EventArgs) Handles Test2ToolStripMenuItem4.Click
         Me.Hide()
         Test2_Tec.Show()
+    End Sub
+
+    Private Sub VolverToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VolverToolStripMenuItem.Click
+        Me.Hide()
+        Form2.Show()
+    End Sub
+    Private Sub cerrarsesiones()
+        Test1_Animales.Close()
+        Test1_Arte.Close()
+        Test1_Ciudades.Close()
+        Test1_Paises.Close()
+        Test1_Tec.Close()
+        Test2_Animales.Close()
+        Test2_Arte.Close()
+        Test2_Ciudades.Close()
+        Test2_Paises.Close()
+        Test2_Tec.Close()
     End Sub
 
 End Class
