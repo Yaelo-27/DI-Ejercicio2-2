@@ -31,7 +31,6 @@ Partial Class Form2
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoTrabajadorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PuntuacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CiudadesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -155,7 +154,7 @@ Partial Class Form2
         '
         'ArchivoToolStripMenuItem
         '
-        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoTrabajadorToolStripMenuItem, Me.PuntuacionesToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoTrabajadorToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
@@ -163,19 +162,13 @@ Partial Class Form2
         'NuevoTrabajadorToolStripMenuItem
         '
         Me.NuevoTrabajadorToolStripMenuItem.Name = "NuevoTrabajadorToolStripMenuItem"
-        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.NuevoTrabajadorToolStripMenuItem.Text = "Nuevo Trabajador"
-        '
-        'PuntuacionesToolStripMenuItem
-        '
-        Me.PuntuacionesToolStripMenuItem.Name = "PuntuacionesToolStripMenuItem"
-        Me.PuntuacionesToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
-        Me.PuntuacionesToolStripMenuItem.Text = "Puntuaciones"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'TestToolStripMenuItem
@@ -189,7 +182,7 @@ Partial Class Form2
         '
         Me.CiudadesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem, Me.Test2ToolStripMenuItem})
         Me.CiudadesToolStripMenuItem.Name = "CiudadesToolStripMenuItem"
-        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.CiudadesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CiudadesToolStripMenuItem.Text = "Ciudades"
         '
         'Test1ToolStripMenuItem
@@ -208,7 +201,7 @@ Partial Class Form2
         '
         Me.PaisesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem1, Me.Test2ToolStripMenuItem1})
         Me.PaisesToolStripMenuItem.Name = "PaisesToolStripMenuItem"
-        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
         'Test1ToolStripMenuItem1
@@ -227,7 +220,7 @@ Partial Class Form2
         '
         Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2, Me.Test2ToolStripMenuItem2})
         Me.AnimalesToolStripMenuItem.Name = "AnimalesToolStripMenuItem"
-        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.AnimalesToolStripMenuItem.Text = "Animales"
         '
         'Test1ToolStripMenuItem2
@@ -246,7 +239,7 @@ Partial Class Form2
         '
         Me.ArteToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem3, Me.Test2ToolStripMenuItem3})
         Me.ArteToolStripMenuItem.Name = "ArteToolStripMenuItem"
-        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ArteToolStripMenuItem.Text = "Arte"
         '
         'Test1ToolStripMenuItem3
@@ -265,7 +258,7 @@ Partial Class Form2
         '
         Me.TecnologiaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem4, Me.Test2ToolStripMenuItem4})
         Me.TecnologiaToolStripMenuItem.Name = "TecnologiaToolStripMenuItem"
-        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
+        Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TecnologiaToolStripMenuItem.Text = "Tecnologia"
         '
         'Test1ToolStripMenuItem4
@@ -290,7 +283,7 @@ Partial Class Form2
         'IrALaWebToolStripMenuItem
         '
         Me.IrALaWebToolStripMenuItem.Name = "IrALaWebToolStripMenuItem"
-        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.IrALaWebToolStripMenuItem.Text = "Ir a la web"
         '
         'P_Bienvenida
@@ -366,7 +359,6 @@ Partial Class Form2
     Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NuevoTrabajadorToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PuntuacionesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TestToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents WebToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents IrALaWebToolStripMenuItem As ToolStripMenuItem

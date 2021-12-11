@@ -36,6 +36,8 @@ Partial Class Inicio
         Me.RD_Trabajador = New System.Windows.Forms.RadioButton()
         Me.RD_Trabajadora = New System.Windows.Forms.RadioButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.WebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.IrALaWebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.P_Botones.SuspendLayout()
         CType(Me.EP_SinNombre, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -61,7 +63,7 @@ Partial Class Inicio
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ArchivoToolStripMenuItem, Me.WebToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(323, 24)
@@ -78,13 +80,13 @@ Partial Class Inicio
         'NuevoTrabajadorToolStripMenuItem
         '
         Me.NuevoTrabajadorToolStripMenuItem.Name = "NuevoTrabajadorToolStripMenuItem"
-        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(166, 22)
+        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.NuevoTrabajadorToolStripMenuItem.Text = "Nuevo trabajador"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(166, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'P_Botones
@@ -165,6 +167,19 @@ Partial Class Inicio
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
+        'WebToolStripMenuItem
+        '
+        Me.WebToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.IrALaWebToolStripMenuItem})
+        Me.WebToolStripMenuItem.Name = "WebToolStripMenuItem"
+        Me.WebToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
+        Me.WebToolStripMenuItem.Text = "Web"
+        '
+        'IrALaWebToolStripMenuItem
+        '
+        Me.IrALaWebToolStripMenuItem.Name = "IrALaWebToolStripMenuItem"
+        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.IrALaWebToolStripMenuItem.Text = "Ir a la Web"
+        '
         'Inicio
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -208,4 +223,6 @@ Partial Class Inicio
     Friend WithEvents EP_SinNombre As ErrorProvider
     Friend WithEvents RD_Trabajadora As RadioButton
     Friend WithEvents RD_Trabajador As RadioButton
+    Friend WithEvents WebToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents IrALaWebToolStripMenuItem As ToolStripMenuItem
 End Class

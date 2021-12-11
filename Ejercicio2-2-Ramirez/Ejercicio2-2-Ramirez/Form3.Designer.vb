@@ -79,19 +79,19 @@ Partial Class Form3
         'NuevoTrabajadorToolStripMenuItem
         '
         Me.NuevoTrabajadorToolStripMenuItem.Name = "NuevoTrabajadorToolStripMenuItem"
-        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.NuevoTrabajadorToolStripMenuItem.Text = "Nuevo Trabajador"
         '
         'VolverToolStripMenuItem
         '
         Me.VolverToolStripMenuItem.Name = "VolverToolStripMenuItem"
-        Me.VolverToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.VolverToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.VolverToolStripMenuItem.Text = "Volver"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'TestToolStripMenuItem
@@ -206,7 +206,7 @@ Partial Class Form3
         'IrALaWebToolStripMenuItem
         '
         Me.IrALaWebToolStripMenuItem.Name = "IrALaWebToolStripMenuItem"
-        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.IrALaWebToolStripMenuItem.Text = "Ir a la web"
         '
         'P_Superior

@@ -205,7 +205,7 @@ Partial Class Arte
         'IrALaWebToolStripMenuItem
         '
         Me.IrALaWebToolStripMenuItem.Name = "IrALaWebToolStripMenuItem"
-        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
+        Me.IrALaWebToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.IrALaWebToolStripMenuItem.Text = "Ir a la web"
         '
         'P_Superior

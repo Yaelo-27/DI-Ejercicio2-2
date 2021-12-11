@@ -35,4 +35,8 @@
         Me.Hide()
         Tecnologia.Show()
     End Sub
+
+    Private Sub IrALaWebToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles IrALaWebToolStripMenuItem.Click
+        System.Diagnostics.Process.Start("https://www.educa2.madrid.org/web/centro.ies.islasfilipinas.madrid")
+    End Sub
 End Class
