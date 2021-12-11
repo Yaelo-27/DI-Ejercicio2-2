@@ -317,5 +317,23 @@
   <ItemGroup>
     <None Include="Resources\paisestest2.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animal1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\animal2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arte1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arte2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tec1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tec2.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

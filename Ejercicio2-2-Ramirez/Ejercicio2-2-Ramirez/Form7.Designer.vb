@@ -25,7 +25,6 @@ Partial Class Arte
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoTrabajadorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PuntuacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VolverToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -71,7 +70,7 @@ Partial Class Arte
         '
         'ArchivoToolStripMenuItem
         '
-        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoTrabajadorToolStripMenuItem, Me.PuntuacionesToolStripMenuItem, Me.VolverToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoTrabajadorToolStripMenuItem, Me.VolverToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
@@ -81,12 +80,6 @@ Partial Class Arte
         Me.NuevoTrabajadorToolStripMenuItem.Name = "NuevoTrabajadorToolStripMenuItem"
         Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.NuevoTrabajadorToolStripMenuItem.Text = "Nuevo Trabajador"
-        '
-        'PuntuacionesToolStripMenuItem
-        '
-        Me.PuntuacionesToolStripMenuItem.Name = "PuntuacionesToolStripMenuItem"
-        Me.PuntuacionesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.PuntuacionesToolStripMenuItem.Text = "Puntuaciones"
         '
         'VolverToolStripMenuItem
         '
@@ -309,7 +302,7 @@ Partial Class Arte
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Arte"
-        Me.Text = "Form7"
+        Me.Text = "Arte"
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
         Me.P_Superior.ResumeLayout(False)
@@ -325,7 +318,6 @@ Partial Class Arte
     Friend WithEvents MenuStrip1 As MenuStrip
     Friend WithEvents ArchivoToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents NuevoTrabajadorToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PuntuacionesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents VolverToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TestToolStripMenuItem As ToolStripMenuItem

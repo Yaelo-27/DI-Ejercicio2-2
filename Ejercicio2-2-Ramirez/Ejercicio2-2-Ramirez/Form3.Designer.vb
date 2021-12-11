@@ -25,7 +25,6 @@ Partial Class Form3
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.ArchivoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.NuevoTrabajadorToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PuntuacionesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VolverToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SalirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TestToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -33,32 +32,32 @@ Partial Class Form3
         Me.Test1ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.Test2ToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PaisesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Test1ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Test2ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.AnimalesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Test1ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Test2ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ArteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Test1ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Test2ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TecnologiaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Test1ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.Test2ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
         Me.WebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.IrALaWebToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.P_Superior = New System.Windows.Forms.Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.btnCiudades = New System.Windows.Forms.Button()
-        Me.btnPaises = New System.Windows.Forms.Button()
-        Me.btnAnimales = New System.Windows.Forms.Button()
-        Me.btnArte = New System.Windows.Forms.Button()
-        Me.btnTecnologia = New System.Windows.Forms.Button()
-        Me.Test1ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test2ToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test1ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test2ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test1ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test2ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test1ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.Test2ToolStripMenuItem4 = New System.Windows.Forms.ToolStripMenuItem()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.btnTecnologia = New System.Windows.Forms.Button()
+        Me.btnArte = New System.Windows.Forms.Button()
+        Me.btnAnimales = New System.Windows.Forms.Button()
+        Me.btnPaises = New System.Windows.Forms.Button()
+        Me.btnCiudades = New System.Windows.Forms.Button()
         Me.MenuStrip1.SuspendLayout()
         Me.P_Superior.SuspendLayout()
-        Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'MenuStrip1
@@ -72,7 +71,7 @@ Partial Class Form3
         '
         'ArchivoToolStripMenuItem
         '
-        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoTrabajadorToolStripMenuItem, Me.PuntuacionesToolStripMenuItem, Me.VolverToolStripMenuItem, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoTrabajadorToolStripMenuItem, Me.VolverToolStripMenuItem, Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
@@ -80,25 +79,19 @@ Partial Class Form3
         'NuevoTrabajadorToolStripMenuItem
         '
         Me.NuevoTrabajadorToolStripMenuItem.Name = "NuevoTrabajadorToolStripMenuItem"
-        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.NuevoTrabajadorToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.NuevoTrabajadorToolStripMenuItem.Text = "Nuevo Trabajador"
-        '
-        'PuntuacionesToolStripMenuItem
-        '
-        Me.PuntuacionesToolStripMenuItem.Name = "PuntuacionesToolStripMenuItem"
-        Me.PuntuacionesToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
-        Me.PuntuacionesToolStripMenuItem.Text = "Puntuaciones"
         '
         'VolverToolStripMenuItem
         '
         Me.VolverToolStripMenuItem.Name = "VolverToolStripMenuItem"
-        Me.VolverToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.VolverToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.VolverToolStripMenuItem.Text = "Volver"
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'TestToolStripMenuItem
@@ -134,12 +127,36 @@ Partial Class Form3
         Me.PaisesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.PaisesToolStripMenuItem.Text = "Paises"
         '
+        'Test1ToolStripMenuItem1
+        '
+        Me.Test1ToolStripMenuItem1.Name = "Test1ToolStripMenuItem1"
+        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem1.Text = "Test 1"
+        '
+        'Test2ToolStripMenuItem1
+        '
+        Me.Test2ToolStripMenuItem1.Name = "Test2ToolStripMenuItem1"
+        Me.Test2ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem1.Text = "Test 2"
+        '
         'AnimalesToolStripMenuItem
         '
         Me.AnimalesToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem2, Me.Test2ToolStripMenuItem2})
         Me.AnimalesToolStripMenuItem.Name = "AnimalesToolStripMenuItem"
         Me.AnimalesToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.AnimalesToolStripMenuItem.Text = "Animales"
+        '
+        'Test1ToolStripMenuItem2
+        '
+        Me.Test1ToolStripMenuItem2.Name = "Test1ToolStripMenuItem2"
+        Me.Test1ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem2.Text = "Test 1"
+        '
+        'Test2ToolStripMenuItem2
+        '
+        Me.Test2ToolStripMenuItem2.Name = "Test2ToolStripMenuItem2"
+        Me.Test2ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem2.Text = "Test 2"
         '
         'ArteToolStripMenuItem
         '
@@ -148,12 +165,36 @@ Partial Class Form3
         Me.ArteToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.ArteToolStripMenuItem.Text = "Arte"
         '
+        'Test1ToolStripMenuItem3
+        '
+        Me.Test1ToolStripMenuItem3.Name = "Test1ToolStripMenuItem3"
+        Me.Test1ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem3.Text = "Test 1"
+        '
+        'Test2ToolStripMenuItem3
+        '
+        Me.Test2ToolStripMenuItem3.Name = "Test2ToolStripMenuItem3"
+        Me.Test2ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem3.Text = "Test 2"
+        '
         'TecnologiaToolStripMenuItem
         '
         Me.TecnologiaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.Test1ToolStripMenuItem4, Me.Test2ToolStripMenuItem4})
         Me.TecnologiaToolStripMenuItem.Name = "TecnologiaToolStripMenuItem"
         Me.TecnologiaToolStripMenuItem.Size = New System.Drawing.Size(131, 22)
         Me.TecnologiaToolStripMenuItem.Text = "Tecnologia"
+        '
+        'Test1ToolStripMenuItem4
+        '
+        Me.Test1ToolStripMenuItem4.Name = "Test1ToolStripMenuItem4"
+        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
+        Me.Test1ToolStripMenuItem4.Text = "Test 1"
+        '
+        'Test2ToolStripMenuItem4
+        '
+        Me.Test2ToolStripMenuItem4.Name = "Test2ToolStripMenuItem4"
+        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
+        Me.Test2ToolStripMenuItem4.Text = "Test 2"
         '
         'WebToolStripMenuItem
         '
@@ -188,6 +229,16 @@ Partial Class Form3
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "TESTS"
         '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
+        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
+        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.btnTecnologia)
@@ -200,70 +251,6 @@ Partial Class Form3
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(458, 476)
         Me.Panel1.TabIndex = 2
-        '
-        'btnCiudades
-        '
-        Me.btnCiudades.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.Ciudades
-        Me.btnCiudades.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnCiudades.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnCiudades.FlatAppearance.BorderSize = 0
-        Me.btnCiudades.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnCiudades.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCiudades.ForeColor = System.Drawing.Color.Lime
-        Me.btnCiudades.Location = New System.Drawing.Point(0, 0)
-        Me.btnCiudades.Name = "btnCiudades"
-        Me.btnCiudades.Size = New System.Drawing.Size(458, 94)
-        Me.btnCiudades.TabIndex = 0
-        Me.btnCiudades.Text = "Ciudades"
-        Me.btnCiudades.UseVisualStyleBackColor = True
-        '
-        'btnPaises
-        '
-        Me.btnPaises.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.paises
-        Me.btnPaises.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnPaises.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnPaises.FlatAppearance.BorderSize = 0
-        Me.btnPaises.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnPaises.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnPaises.ForeColor = System.Drawing.Color.Lime
-        Me.btnPaises.Location = New System.Drawing.Point(0, 94)
-        Me.btnPaises.Name = "btnPaises"
-        Me.btnPaises.Size = New System.Drawing.Size(458, 94)
-        Me.btnPaises.TabIndex = 1
-        Me.btnPaises.Text = "Países"
-        Me.btnPaises.UseVisualStyleBackColor = True
-        '
-        'btnAnimales
-        '
-        Me.btnAnimales.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.animales
-        Me.btnAnimales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnAnimales.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnAnimales.FlatAppearance.BorderSize = 0
-        Me.btnAnimales.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnAnimales.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAnimales.ForeColor = System.Drawing.Color.Lime
-        Me.btnAnimales.Location = New System.Drawing.Point(0, 188)
-        Me.btnAnimales.Name = "btnAnimales"
-        Me.btnAnimales.Size = New System.Drawing.Size(458, 94)
-        Me.btnAnimales.TabIndex = 2
-        Me.btnAnimales.Text = "Animales"
-        Me.btnAnimales.UseVisualStyleBackColor = True
-        '
-        'btnArte
-        '
-        Me.btnArte.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.arte
-        Me.btnArte.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btnArte.Dock = System.Windows.Forms.DockStyle.Top
-        Me.btnArte.FlatAppearance.BorderSize = 0
-        Me.btnArte.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.btnArte.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnArte.ForeColor = System.Drawing.Color.Lime
-        Me.btnArte.Location = New System.Drawing.Point(0, 282)
-        Me.btnArte.Name = "btnArte"
-        Me.btnArte.Size = New System.Drawing.Size(458, 94)
-        Me.btnArte.TabIndex = 3
-        Me.btnArte.Text = "Arte"
-        Me.btnArte.UseVisualStyleBackColor = True
         '
         'btnTecnologia
         '
@@ -281,63 +268,69 @@ Partial Class Form3
         Me.btnTecnologia.Text = "Tecnología"
         Me.btnTecnologia.UseVisualStyleBackColor = True
         '
-        'Test1ToolStripMenuItem1
+        'btnArte
         '
-        Me.Test1ToolStripMenuItem1.Name = "Test1ToolStripMenuItem1"
-        Me.Test1ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
-        Me.Test1ToolStripMenuItem1.Text = "Test 1"
+        Me.btnArte.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.arte
+        Me.btnArte.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnArte.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnArte.FlatAppearance.BorderSize = 0
+        Me.btnArte.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnArte.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnArte.ForeColor = System.Drawing.Color.Lime
+        Me.btnArte.Location = New System.Drawing.Point(0, 282)
+        Me.btnArte.Name = "btnArte"
+        Me.btnArte.Size = New System.Drawing.Size(458, 94)
+        Me.btnArte.TabIndex = 3
+        Me.btnArte.Text = "Arte"
+        Me.btnArte.UseVisualStyleBackColor = True
         '
-        'Test2ToolStripMenuItem1
+        'btnAnimales
         '
-        Me.Test2ToolStripMenuItem1.Name = "Test2ToolStripMenuItem1"
-        Me.Test2ToolStripMenuItem1.Size = New System.Drawing.Size(103, 22)
-        Me.Test2ToolStripMenuItem1.Text = "Test 2"
+        Me.btnAnimales.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.animales
+        Me.btnAnimales.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnAnimales.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnAnimales.FlatAppearance.BorderSize = 0
+        Me.btnAnimales.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnAnimales.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAnimales.ForeColor = System.Drawing.Color.Lime
+        Me.btnAnimales.Location = New System.Drawing.Point(0, 188)
+        Me.btnAnimales.Name = "btnAnimales"
+        Me.btnAnimales.Size = New System.Drawing.Size(458, 94)
+        Me.btnAnimales.TabIndex = 2
+        Me.btnAnimales.Text = "Animales"
+        Me.btnAnimales.UseVisualStyleBackColor = True
         '
-        'Test1ToolStripMenuItem2
+        'btnPaises
         '
-        Me.Test1ToolStripMenuItem2.Name = "Test1ToolStripMenuItem2"
-        Me.Test1ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
-        Me.Test1ToolStripMenuItem2.Text = "Test 1"
+        Me.btnPaises.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.paises
+        Me.btnPaises.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnPaises.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnPaises.FlatAppearance.BorderSize = 0
+        Me.btnPaises.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnPaises.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnPaises.ForeColor = System.Drawing.Color.Lime
+        Me.btnPaises.Location = New System.Drawing.Point(0, 94)
+        Me.btnPaises.Name = "btnPaises"
+        Me.btnPaises.Size = New System.Drawing.Size(458, 94)
+        Me.btnPaises.TabIndex = 1
+        Me.btnPaises.Text = "Países"
+        Me.btnPaises.UseVisualStyleBackColor = True
         '
-        'Test2ToolStripMenuItem2
+        'btnCiudades
         '
-        Me.Test2ToolStripMenuItem2.Name = "Test2ToolStripMenuItem2"
-        Me.Test2ToolStripMenuItem2.Size = New System.Drawing.Size(103, 22)
-        Me.Test2ToolStripMenuItem2.Text = "Test 2"
-        '
-        'Test1ToolStripMenuItem3
-        '
-        Me.Test1ToolStripMenuItem3.Name = "Test1ToolStripMenuItem3"
-        Me.Test1ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
-        Me.Test1ToolStripMenuItem3.Text = "Test 1"
-        '
-        'Test2ToolStripMenuItem3
-        '
-        Me.Test2ToolStripMenuItem3.Name = "Test2ToolStripMenuItem3"
-        Me.Test2ToolStripMenuItem3.Size = New System.Drawing.Size(103, 22)
-        Me.Test2ToolStripMenuItem3.Text = "Test 2"
-        '
-        'Test1ToolStripMenuItem4
-        '
-        Me.Test1ToolStripMenuItem4.Name = "Test1ToolStripMenuItem4"
-        Me.Test1ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
-        Me.Test1ToolStripMenuItem4.Text = "Test 1"
-        '
-        'Test2ToolStripMenuItem4
-        '
-        Me.Test2ToolStripMenuItem4.Name = "Test2ToolStripMenuItem4"
-        Me.Test2ToolStripMenuItem4.Size = New System.Drawing.Size(103, 22)
-        Me.Test2ToolStripMenuItem4.Text = "Test 2"
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.ugt
-        Me.PictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.PictureBox1.Location = New System.Drawing.Point(4, 4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(98, 68)
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
+        Me.btnCiudades.BackgroundImage = Global.Ejercicio2_2_Ramirez.My.Resources.Resources.Ciudades
+        Me.btnCiudades.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btnCiudades.Dock = System.Windows.Forms.DockStyle.Top
+        Me.btnCiudades.FlatAppearance.BorderSize = 0
+        Me.btnCiudades.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.btnCiudades.Font = New System.Drawing.Font("Microsoft YaHei", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCiudades.ForeColor = System.Drawing.Color.Lime
+        Me.btnCiudades.Location = New System.Drawing.Point(0, 0)
+        Me.btnCiudades.Name = "btnCiudades"
+        Me.btnCiudades.Size = New System.Drawing.Size(458, 94)
+        Me.btnCiudades.TabIndex = 0
+        Me.btnCiudades.Text = "Ciudades"
+        Me.btnCiudades.UseVisualStyleBackColor = True
         '
         'Form3
         '
@@ -358,8 +351,8 @@ Partial Class Form3
         Me.MenuStrip1.PerformLayout()
         Me.P_Superior.ResumeLayout(False)
         Me.P_Superior.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -371,7 +364,6 @@ Partial Class Form3
     Friend WithEvents TestToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents WebToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents IrALaWebToolStripMenuItem As ToolStripMenuItem
-    Friend WithEvents PuntuacionesToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SalirToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents VolverToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents CiudadesToolStripMenuItem As ToolStripMenuItem
